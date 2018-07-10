@@ -1,0 +1,226 @@
+﻿{
+	"world1":
+	[
+		{"question":"Bumi itu bulat",				"answer":"EARTH THAT ROUND"},
+		{"question":"Aku suka anjing dan kucing",	"answer":"I LIKE DOG AND CAT"},
+		{"question":"Jangan pakai telat telat",		"answer":"DONT USE LATE LATE"},
+		{"question":"Hati hati di jalan",			"answer":"LIVER LIVER ON STREET"},
+		{"question":"Ada kucing di rumah",			"answer":"EXIST CAT IN HOUSE"},
+
+		{"question":"Langit biru luas sekali",		"answer":"SKY BLUE WIDE ONCE"},
+		{"question":"Dasar kutu buku kamu",			"answer":"BASE FLEA BOOK YOU"}, 
+		{"question":"Sinar matahari panas sekali",	"answer":"BEAM SUN HOT ONCE"}, 
+		{"question":"Muka aku banyak tahi lalat",	"answer":"FACE I MANY SHIT FLY"},
+		{"question":"Cepat kaki ringan tangan",		"answer":"QUICK FOOT LIGHT HAND"}, 
+	]
+
+	"world2":
+	[
+		{"question":"Ada air ada ikan",				"answer":"EXIST WATER EXIST FISH"},
+		{"question":"Bintang kecil di langit biru",	"answer":"STAR LITTLE IN SKY BLUE"},
+		{"question":"Kita pergi ke meja hijau",		"answer":"WE GO TO TABLE GREEN"},
+		{"question":"Tidak lupa menggosok gigi",	"answer":"NO FORGET BRUSH TEETH"},
+		{"question":"Kuku kaki semua kaku kaku",	"answer":"NAIL FOOT ALL RIGID RIGID"},
+
+		{"question":"Malam pertama berjuta rasanya","answer":"NIGHT FIRST MILLION FEEL"},
+		{"question":"Bagai serigala berbulu domba",	"answer":"LIKE WOLF HAIRY SHEEP"}, 
+		{"question":"Bahasa menunjukkan bangsa",	"answer":"LANGUAGE POINT NATION"}, 
+		{"question":"Ada asap ada api",				"answer":"EXIST SMOKE EXIST FIRE"},
+		{"question":"Jalan cepat kejar kereta",		"answer":"STREET FAST CHASE TRAIN"}, 
+	]
+
+	"world3":
+	[
+		{"question":"Papan tulis tidak dihapus",		"answer":"BOARD WRITE NOT ERASED"},
+		{"question":"Malu kalah di kandang sendiri",	"answer":"SHY LOSE IN CAGE ALONE"},
+		{"question":"Kopi hitam kental panas",			"answer":"COFFEE BLACK DENSE HOT"},
+		{"question":"Mobil barang berhenti di jalan",	"answer":"CAR THING STOP ON STREET"},
+		{"question":"Bendera negara kita merah putih",	"answer":"FLAG NATION WE RED WHITE"},
+
+		{"question":"Bukan lautan hanya kolam susu",	"answer":"NOT OCEAN ONLY POOL MILK"},
+		{"question":"Kamu keras kepala seperti batu",	"answer":"YOU HARD HEAD LIKE STONE"}, 
+		{"question":"Apa daya tangan tak sampai",		"answer":"WHAT POWER HAND NO UNTIL"}, 
+		{"question":"Gigit jari tidak dapat uang",		"answer":"BITE FINGER NOT GET MONEY"},
+		{"question":"Aku baru saja lewat kuburan",		"answer":"I NEW JUST PASS CEMETARY"}, 
+	]
+
+	"world4":
+	[
+		{"question":"Pemimpin sejati punya jiwa besar",		"answer":"LEADER TRUE HAVE SOUL BIG"},
+		{"question":"Pahlawan tanpa tanda jasa",			"answer":"HERO WITHOUT SIGN SERVICE"},
+		{"question":"Kita harus punya hati bersih",			"answer":"WE MUST HAVE LIVER CLEAN"},
+		{"question":"Sudah jatuh tertimpa tangga",			"answer":"DONE FALL OVERRIDE LADDER"},
+		{"question":"Kalau sakit minum obat jadi sembuh",	"answer":"IF ILL DRING DRUG SO RECOVER"},
+
+		{"question":"Lagi lelah gampang naik darah",		"answer":"AGAIN TIRED EASY UP BLOOD"},
+		{"question":"Jago merah membakar tembok rumah",		"answer":"GREAT RED BURN WALL HOUSE"}, 
+		{"question":"Jalan jauh tidak sempai sampai",		"answer":"STREET FAR NOT ARRIVE ARRIVE"}, 
+		{"question":"Nasi tak dingin pinggan tak retak",	"answer":"RICE NO COLD DISH NO CRACK"},
+		{"question":"Mentega terbang adalah sangat cantik",	"answer":"BUTTER FLY IS VERY BEAUTIFUL"}, 
+	]
+
+	"world5":
+	[
+		{"question":"Pohon gosong tersambar petir",		"answer":"TREE BURNT STRUCK LIGHTNING"},
+		{"question":"Jangan gampang kecil hati dulu",	"answer":"DONT EASY SMALL LIVER PAST"},
+		{"question":"Leher sakit tidur salah bantal",	"answer":"NECK ILL SLEEP WRONG PILLOW"},
+		{"question":"Naik naik ke puncak gunung",		"answer":"UP UP TO SUMMIT MOUNTAIN"},
+		{"question":"Tidak bisa pindah ke lain hati",	"answer":"NO CAN MOVE TO OTHET LIVER"},
+
+		{"question":"Teh tubruk dengan gula batu",		"answer":"TEA CRASH WITH SUGAR STONE"},
+		{"question":"Orang gila seperti muka tembok",	"answer":"PEOPLE CRAZY LIKE FACE WALL"}, 
+		{"question":"Antara sakit hati dan sakit gigi",	"answer":"BETWEEN ILL LIVER AND ILL TEETH"}, 
+		{"question":"Nasi bebek dengan sambal hijau",	"answer":"RICE DUCK WITH CHILLY GREEN"},
+		{"question":"Kamar kecil jorok dan bau",		"answer":"ROOM SMALL DIRTY AND SMELL"}, 
+	]
+
+	"world6":
+	[
+		{"question":"Malas belajar jadi otak udang",					"answer":"LAZY STUDY SO BRAIN SHRIMP"},
+		{"question":"Penjual tahu bulat bawa mobil",					"answer":"SELLER KNOW ROUND BRING CAR"},
+		{"question":"Jangan langsung percaya kabar angin",				"answer":"DONT DIRECT TRUST NEWS WIND"},
+		{"question":"Minum air putih setiap hari",						"answer":"DRINK WATER WHITE EVERY DAY"},
+		{"question":"Jalan kaki olahraga paling murah",					"answer":"WALK FOOT SPORT MOST CHEAP"},
+
+		{"question":"Tua ompong bau dan hidup",							"answer":"OLD TOOTHLESS STINK AND LIVE"},
+		{"question":"Bersakit sakit dahulu bersenang senang kemudian",	"answer":"ILL ILL EARLY HAPPY HAPPY THEN"}, 
+		{"question":"Air keras tumpah di meja makan",					"answer":"WATER HARD SPILL ON TABLE EAT"}, 
+		{"question":"Gudang ada di lantai atas",						"answer":"WAREHOUSE EXIST ON FLOOR UP"},
+		{"question":"Gadis kutu buku ada di perpustakaan",				"answer":"GIRL FLEA BOOK EXIST IN LIBRARY"}, 
+	]
+
+	"world7":
+	[
+		{"question":"Selokan mampet penyebab banjir",		"answer":"SEWER CLOGGED CAUSED FLOOD"},
+		{"question":"Pemimpin harus turun tangan juga",		"answer":"LEADER MUST DOWN HAND ALSO"},
+		{"question":"Sayur asam dan ikan asin",				"answer":"VEGETABLE ACID AND FISH SALTY"},
+		{"question":"Tiang listrik miring hampir jatuh",	"answer":"POLE ELECTRICITY TILT ALMOST FALL"},
+		{"question":"Nasi tim ayam jamur",					"answer":"RICE TEAM CHICKEN MUSHROOM"},
+
+		{"question":"Sekarang telah menjadi lautan api",	"answer":"NOW ALREADY BECONME SEA FIRE"},
+		{"question":"Pakai kaca mata kalau susah membaca",	"answer":"USE GLASS EYE IF DIFFICULT READING"}, 
+		{"question":"Dasar kamu pria buaya darat",		"answer":"BASE YOU MAN CROCODILE LAND"}, 
+		{"question":"Jamu temu lawak bikin sehat",			"answer":"HERB MEET JOKE MAKE HEALTHY"},
+		{"question":"Kaki tangan pencuri sudah ditangkap",	"answer":"FOOT HAND THIEF DONE ARRESTED"}, 
+	]
+
+	"world8":
+	[
+		{"question":"Jual es laku tidak laku habis",			"answer":"SELL ICE SOLD NOT SOLD FINISHED"},
+		{"question":"Lebih susah menulis daripada hanya bicara","answer":"MORE HARD WRITE THAN ONLY TALK"},
+		{"question":"Sedia payung sebelum hujan",				"answer":"AVAILABLE UMBRELLA BEFORE RAIN"},
+		{"question":"Pelangi pelangi ciptaan Tuhan",			"answer":"RAINBOW RAINBOW CREATION GOD"},
+		{"question":"Duduk sama rendah berdiri sama tinggi",	"answer":"SIT SAME LOW STAND SAME HIGH"},
+
+		{"question":"Pedagang itu sudah gulung tikar",			"answer":"MERCHANT THAT ALREADY ROLL MAT"},
+		{"question":"Anak adalah darah daging orang tua",		"answer":"CHILD IS BLOOD MEAT PEOPLE OLD"}, 
+		{"question":"Sakit hati ditinggal mantan kawin lari",	"answer":"SICK LIVER LEFT FORMER MARRY RUN"}, 
+		{"question":"Anak buah dapat tugas berat sekali",		"answer":"CHILD FRUIT GET TASK HEAVY ONCE"},
+		{"question":"Orang murah hati banyak teman",			"answer":"PEOPLE CHEAP LIVER MANY FRIENDS"}, 
+	]
+
+	"world9":
+	[
+		{"question":"Pindah tempat kerja seperti kutu loncat",	"answer":"MOVE PLACE WORK LIKE FLEA JUMP"},
+		{"question":"Nasi goreng gila enak sekali",				"answer":"RICE FRY CRAZY DELICIOUS ONCE"},
+		{"question":"Bapak ibu dan teman teman",				"answer":"FATHER MOTHER AND FRIEND FRIEND"},
+		{"question":"Orang pintar minum tolak angin",			"answer":"PEOPLE SMART DRINK REFUSE WIND"},
+		{"question":"Anak ringan tangan bantu orang tua",		"answer":"CHILD LIGHT HAND HELP PEOPLE OLD"},
+
+		{"question":"Ingin ini ingin itu banyak sekali",		"answer":"WANT THIS WANT THAT MANY ONCE"},
+		{"question":"Tumbuh cantik jadi bunga desa",			"answer":"GROW BEAUTIFUL SO FLOWER VILLAGE"}, 
+		{"question":"Jari jari roda sepeda baru",				"answer":"FINGER FINGER WHEEL BICYCLE NEW"}, 
+		{"question":"Lampu merah berhenti lampu hijau jalan",	"answer":"LAMP RED STOP LAMP GREEN WALK"},
+		{"question":"Awas setrum kabel listrik",				"answer":"BEWARE CURRENT CABLE ELECTRICITY"}, 
+	]
+
+	"world10":
+	[
+		{"question":"Jam dinding mati habis baterai",				"answer":"CLOCK WALL DEAD FINISHED BATTERY"},
+		{"question":"Berjalan sampai batas berlayar sampai pulau",	"answer":"WALK UNTIL BORDER SAIL UNTIL ISLAND"},
+		{"question":"Nonton sepak bola di layar kaca",				"answer":"WATCH KICK BALL ON SCREEN GLASS"},
+		{"question":"Anak kecil sekarang tahu cinta buta",			"answer":"CHILD SMALL NOW KNOW LOVE BLIND"},
+		{"question":"Susu kambing liar membuat badan sehat",		"answer":"MILK GOAT WILD MAKE BODY HEALTH"},
+
+		{"question":"Burung marah dilempar ke batu batu",			"answer":"BIRD ANGRY THROWN TO STONE STONE"},
+		{"question":"Orang kaya kalau belanja suka gelap mata",		"answer":"PEOPLE RICH IF SHOP LIKE DARK EYE"}, 
+		{"question":"Orang rendah hati tidak suka sombong",			"answer":"PEOPLE LOW LIVER NOT LIKE ARROGANT"}, 
+		{"question":"Terjebak macet cari jalan pintas",				"answer":"STUCK JAMMED FIND WALK SHORTCUT"},
+		{"question":"Ayah ibu sedang perang dingin",				"answer":"FATHER MOTHER MODERATE WAR COLD"}, 
+	]
+
+	"world11":
+	[
+		{"question":"Kursi malas punya kakek masih ada",		"answer":"CHAIR LAZY HAVE GRANDFATHER STILL EXIST"},
+		{"question":"Suara nyamuk ganggu tidur saja",			"answer":"SOUND MOSQUITO DISTURB SLEEP JUST"},
+		{"question":"Udang goreng bumbu lada hitam",			"answer":"SHRIMP FRY SEASONING PEPPER BLACK"},
+		{"question":"Jalan jalan cuci mata lihat gadis cantik",	"answer":"WALK WALK WASH EYE SEE GIRL PRETTY"},
+		{"question":"Olahraga agar badan sehat dan kuat",		"answer":"SPORT JELLY BODY HEALTHY AND STRONG"},
+
+		{"question":"Ada topeng monyet di pinggir jalan",		"answer":"EXIST MASK MONKEY ON EDGE STREET"},
+		{"question":"Dasar pria mata keranjang suka main mata",	"answer":"BASE MAN EYE BASKET LIKE PLAY EYE"}, 
+		{"question":"Nenek sudah tua gigi tinggal dua",			"answer":"GRANDMOTHER ALREADY OLD TOOTH STAY TWO"}, 
+		{"question":"Ayam jago berkokok pagi sekali",			"answer":"CHICKEN GREAT CUCKOO MORNING ONCE"},
+		{"question":"Nonton murah di bioskop layar tancap",		"answer":"WATCH CHEAP AT CINEMA SCREEN STAB"}, 
+	]
+
+	"world12":
+	[
+		{"question":"Pagi hari bersih bersih tempat tidur",				"answer":"MORNING DAY CLEAN CLEAN PLACE SLEEP"},
+		{"question":"Semua orang salah dibawa ke meja hijau",			"answer":"ALL PEOPLE WRONG BROUGHT TO TABLE GREEN"},
+		{"question":"Datang tampak muka pulang tampak punggung",		"answer":"COME APPEAR FACE RETURN APPEAR BACK"},
+		{"question":"Cicak cicak di dinding diam diam merayap",			"answer":"LIZARD LIZARD ON WALL SILENT SILENT CRAWL"},
+		{"question":"Satu lusin sama dengan dua belas biji",			"answer":"ONE DOZEN SAME WITH TWO MERCY SEED"},
+
+		{"question":"Semoga panjang umur dan sukses selalu",			"answer":"HOPEFULLY LONG AGE AND SUCCESS ALWAYS"},
+		{"question":"Kamu tidak boleh campur tangan urusan orang lain",	"answer":"YOU NO MAY MIX HAND AFFAIR PEOPLE OTHER"}, 
+		{"question":"Mending ngaku salah darpiada cari kambing hitam",	"answer":"BETTER CONFESS WRONG THAN FIND GOAT BLACK"}, 
+		{"question":"Pulau pramuka salah satu pulau seribu",			"answer":"ISLAND PATHFINDER WRONG ONE ISLAND THOUSAND"},
+		{"question":"Lepas dari mulut harimau jatuh ke mulut buaya",	"answer":"LOOSE FROM MOUTH TIGER FALL TO MOUTH CROCODILE"}, 
+	]
+
+	"world13":
+	[
+		{"question":"rasa sesal tidak mau pergi",						"answer":"FEEL REGRET NO WANT GO"},
+		{"question":"jangan pernah besar kepala",						"answer":"DONT EVER BIG HEAD"},
+		{"question":"anak nakal biang keladi",							"answer":"CHILD NAUGHTY SOURCE CALADIUM"},
+		{"question":"tidur siang buat badan lemas",						"answer":"SLEEP NOON MAKE BODY LIMP"},
+		{"question":"kerja tidak boleh patah semangat",					"answer":"WORK NO MAY BROKEN SPIRIT"},
+
+		{"question":"makanan pedas bikin sakit perut",					"answer":"FOOD SPICY MAKE ILL STOMACH"},
+		{"question":"pemimpin harus angkat bicara",						"answer":"LEADER MUST LIFT SPEAK"},
+		{"question":"kamu hanya diam seribu bahasa",					"answer":"YOU ONLY SILENT THOUSAND LANGUAGE"},
+		{"question":"jangan lupa bawa buah tangan",						"answer":"DONT FORGET BRING FRUIT HAND"},
+		{"question":"naik turun tangga jadi olahraga",					"answer":"UP DOWN LADDER SO SPORT"},
+	]
+
+	"world14":
+	[
+		{"question":"buah baju aku hilang satu",						"answer":"FRUIT SHIRT I DISAPPEAR ONE"},
+		{"question":"hati hati dia lintah darat",						"answer":"LIVER LIVER HE LEECH LAND"},
+		{"question":"kita semua masih hijau butuh belajar",				"answer":"wWE ALL STILL GREEN NEED STUDY"},
+		{"question":"orang itu baik dan lurus hati",					"answer":"PERSON THAT KIND AND STRAIGHT LIVER"},
+		{"question":"jiwa aku tenteram di samping mu",					"answer":"SOUL I PEACEFUL AT BESIDE YOU"},
+
+		{"question":"dia tutup usia karena sakit keras",				"answer":"HE CLOSE AGE BECAUSE SICK HARD"},
+		{"question":"kuda hitam itu sudah menang jauh",					"answer":"HORSE BLACK THAT AFTER WIN FAR"},
+		{"question":"sudah salah masih tebal muka",						"answer":"AFTER WRONG STILL THICK FACE"},
+		{"question":"aku ingin hidup seribu tahun lagi",				"answer":"I WANT LIVE THOUSAND YEAR AGAIN"},
+		{"question":"dunia ini panggung sandiwara",						"answer":"WORLD THIS STAGE PLAY"},
+	]
+
+	"world15":
+	[
+		{"question":"perpustakaan adalah gudang ilmu",					"answer":"LIBRARY IS WAREHOUSE KNOWLEDGE"},
+		{"question":"raja siang keluar dari ufuk timur",				"answer":"KING NOON EXIT FROM HORIZON EAST"},
+		{"question":"pemuda adalah bunga bangsa",						"answer":"YOUTH IS FLOWER NATION"},
+		{"question":"dia pantas jadi bintang kelas",					"answer":"HE WORTHY BECOME STAR CLASS"},
+		{"question":"kami rindu makan es kacang merah",					"answer":"WE MISS EAT ICE PEANUT RED"},
+
+		{"question":"teh manis hangat cukup buat aku",					"answer":"TEA SWEET WARM ENOUGH MAKE I"},
+		{"question":"susu bantal dan roti buaya",						"answer":"MILK PILLOW AND BREAD CROCODILE"},
+		{"question":"dengan gembira bersama melangkah",					"answer":"WITH HAPPY TOGETHER STEP"},
+		{"question":"tepuk tangan nyanyi sukaria",						"answer":"CLAP HAND SING MERRY"},
+		{"question":"dewi malam telah keluar dari balik awan",			"answer":"GODDESS NIGHT ALREADY EXIT FROM BEHIND CLOUD"},
+	]
+}

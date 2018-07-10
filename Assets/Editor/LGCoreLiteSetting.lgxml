@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LGCoreLiteSetting xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <postbuild_enable>true</postbuild_enable>
+  <bundle_id>com.gemugemu.punoios</bundle_id>
+  <app_id>LGPUNO</app_id>
+  <chanunnel_id>1489377997</chanunnel_id>
+</LGCoreLiteSetting>

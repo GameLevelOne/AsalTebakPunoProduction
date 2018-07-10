@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!--  Login -->
+    <string name="auth.line.line.connect">Iniciar sesión con LINE</string>
+    <string name="auth.line.guest.connect">Jugar sin registrarse</string>
+    
+    <string name="auth.line.guest.message.1">Jugar sin registrarse. Selecciona “Iniciar sesión con LINE” si usas LINE.</string>
+    <string name="auth.line.guest.message.2">Si juegas sin registrarte todos los datos que hayas jugado con tu cuenta de LINE se reiniciarán. ¿Quieres jugar sin registrarte?</string>
+    <string name="auth.line.guest.message.3">Al jugar como usuario de LINE podrás guardar todas tus partidas. \n（Se reinicirán los datos de la partida actual）</string>
+    <string name="auth.line.game.terms.title">Términos de Uso</string> 
+    <string name="auth.line.game.terms.reload">Cargando</string>
+    <string name="auth.line.game.terms.loading">Cargando</string>
+    
+    <string name="auth.line.game.terms.allow">Acepto</string>
+    <string name="auth.line.game.terms.cancel">No acepto</string>
+    
+    
+    <string name="auth.line.button.ok">OK</string>
+    <string name="auth.line.button.cancel">Cancelar</string>
+    <string name="auth.line.button.close">Cerrar</string>
+    
+</resources>

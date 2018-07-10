@@ -1,0 +1,10 @@
+lastUpgrade=00935
+proj.pluginVersion=0.9.35
+proj.AppId=698552919952
+and.BundleId=com.gemugemu.puno
+proj.classDir=Assets
+proj.ConstantsClassName=GP_Achievement
+and.ResourceData=%3c%3fxml+version%3d%221.0%22+encoding%3d%22utf-8%22%3f%3e%0d%0a%3c%21--%0d%0aGoogle+Play+game+services+IDs.%0d%0aSave+this+file+as+res%2fvalues%2fgames-ids.xml+in+your+project.%0d%0a--%3e%0d%0a%3cresources%3e%0d%0a++%3cstring+name%3d%22app_id%22%3e698552919952%3c%2fstring%3e%0d%0a++%3cstring+name%3d%22package_name%22%3ecom.gemugemu.puno%3c%2fstring%3e%0d%0a++%3cstring+name%3d%22achievement_new_player%22%3eCgkIkM_-p6oUEAIQAA%3c%2fstring%3e%0d%0a++%3cstring+name%3d%22achievement_clear_world_1%22%3eCgkIkM_-p6oUEAIQAQ%3c%2fstring%3e%0d%0a++%3cstring+name%3d%22achievement_clear_world_2%22%3eCgkIkM_-p6oUEAIQAg%3c%2fstring%3e%0d%0a++%3cstring+name%3d%22achievement_clear_world_3%22%3eCgkIkM_-p6oUEAIQAw%3c%2fstring%3e%0d%0a++%3cstring+name%3d%22achievement_answer_question_in_30_sec%22%3eCgkIkM_-p6oUEAIQBA%3c%2fstring%3e%0d%0a++%3cstring+name%3d%22achievement_answer_question_in_10_sec%22%3eCgkIkM_-p6oUEAIQBQ%3c%2fstring%3e%0d%0a++%3cstring+name%3d%22achievement_first_use_power_up%22%3eCgkIkM_-p6oUEAIQBg%3c%2fstring%3e%0d%0a++%3cstring+name%3d%22achievement_collect_30_star%22%3eCgkIkM_-p6oUEAIQBw%3c%2fstring%3e%0d%0a++%3cstring+name%3d%22achievement_collect_60_star%22%3eCgkIkM_-p6oUEAIQCA%3c%2fstring%3e%0d%0a%3c%2fresources%3e
+and.ClientId=698552919952-9o9d08qput3vja98h0n8bb9d80q6h5hl.apps.googleusercontent.com
+proj.requireGPlus=false
+android.SetupDone=true

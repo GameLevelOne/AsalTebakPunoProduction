@@ -1,0 +1,169 @@
+fileFormatVersion: 2
+guid: c717e1434afef1442960a7734310a172
+timeCreated: 1479366563
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: atlas_0
+    21300002: atlas_1
+    21300004: atlas_2
+    21300006: atlas_3
+    21300008: atlas_4
+    21300010: atlas_5
+    21300012: atlas_6
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: atlas_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 377
+        width: 284
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -142, y: 96}
+        - {x: -142, y: -96}
+        - {x: 142, y: -96}
+        - {x: 142, y: 96}
+    - name: atlas_1
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 204
+        width: 149
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -74.5, y: 80}
+        - {x: -74.5, y: -80}
+        - {x: 74.5, y: -80}
+        - {x: 74.5, y: 80}
+    - name: atlas_2
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 202
+        width: 127
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63.5, y: 81}
+        - {x: -63.5, y: -81}
+        - {x: 63.5, y: -81}
+        - {x: 63.5, y: 81}
+    - name: atlas_3
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 30
+        width: 284
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -142, y: 84}
+        - {x: -142, y: -84}
+        - {x: 142, y: -84}
+        - {x: 142, y: 84}
+    - name: atlas_4
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 403
+        width: 285
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -142.5, y: 83.5}
+        - {x: -142.5, y: -83.5}
+        - {x: 142.5, y: -83.5}
+        - {x: 142.5, y: 83.5}
+    - name: atlas_5
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 226
+        width: 282
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -141, y: 83.5}
+        - {x: -141, y: -83.5}
+        - {x: 141, y: -83.5}
+        - {x: 141, y: 83.5}
+    - name: atlas_6
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 44
+        width: 286
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -143, y: 84}
+        - {x: -143, y: -84}
+        - {x: 143, y: -84}
+        - {x: 143, y: 84}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

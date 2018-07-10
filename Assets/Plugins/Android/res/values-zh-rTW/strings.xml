@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!--  Login -->
+    <string name="auth.line.line.connect">與LINE連動</string>
+    <string name="auth.line.guest.connect">訪客登入</string>
+    
+    <string name="auth.line.guest.message.1">以訪客身分開始遊戲。若您是LINE的用戶，請選擇「與LINE連動」。</string>
+    <string name="auth.line.guest.message.2">若您進行遊戲時都是選擇「與LINE連動」，現在以訪客身分進行遊戲將會重設您的遊戲資料。確定要選擇「訪客登入」嗎？</string>
+    <string name="auth.line.guest.message.3">與LINE連動後進行遊戲，系統將會為您保存遊戲資料。\n（目前的遊戲資料將會重設歸零）</string>
+    <string name="auth.line.game.terms.title">服務條款</string> 
+    <string name="auth.line.game.terms.reload">讀取</string>
+    <string name="auth.line.game.terms.loading">正在讀取</string>
+    
+    <string name="auth.line.game.terms.allow">同意</string>
+    <string name="auth.line.game.terms.cancel">不同意</string>
+    
+    
+    <string name="auth.line.button.ok">OK</string>
+    <string name="auth.line.button.cancel">取消</string>
+    <string name="auth.line.button.close">關閉</string>
+    
+</resources>

@@ -1,0 +1,226 @@
+﻿{
+	"world1":
+	[
+		{"question":"Enter wind",						"answer":"MASUK ANGIN"},
+		{"question":"Pay alone alone",					"answer":"BAYAR SENDIRI SENDIRI"},
+		{"question":"Salary no up up",					"answer":"GAJI TIDAK NAIK NAIK"},
+		{"question":"Shy shy but want",					"answer":"MALU MALU TAPI MAU"},
+		{"question":"Little little me",					"answer":"SEDIKIT SEDIKIT AKU"},
+
+		{"question":"Like earth sky",					"answer":"BAGAIKAN BUMI DAN LANGIT"},
+		{"question":"If no me who again",				"answer":"JIKA TIDAK SAYA SIAPA LAGI"},
+		{"question":"Carry hand or i shoot",			"answer":"ANGKAT TANGAN ATAU AKU TEMBAK"},
+		{"question":"Walk walk find wind",				"answer":"JALAN JALAN CARI ANGIN"},
+		{"question":"Shy ask lost at road",				"answer":"MALU BERTANYA SESAT DI JALAN"},
+	]
+	
+	"world2":
+	[
+		{"question":"I not delicious body",				"answer":"AKU TIDAK ENAK BADAN"},
+		{"question":"Sick throat hot inside",			"answer":"SAKIT TENGGOROKAN PANAS DALAM"},
+		{"question":"Girl that shy shy cat",			"answer":"WANITA ITU MALU MALU KUCING"},
+		{"question":"Throw stone hide hand",			"answer":"LEMPAR BATU SEMBUNYI TANGAN"},
+		{"question":"Old old crocodile land",			"answer":"TUA TUA BUAYA DARAT"},
+
+		{"question":"I feel sick hot Inside",			"answer":"AKU MERASA SAKIT PANAS DALAM"},
+		{"question":"Don't bring bring name i",			"answer":"JANGAN BAWA BAWA NAMA AKU"},
+		{"question":"Girl like sell expensive",			"answer":"WANITA SUKA JUAL MAHAL"},
+		{"question":"Exist shrimp behind stone",		"answer":"ADA UDANG DIBALIK BATU"},
+		{"question":"I want throw water small",			"answer":"AKU MAU BUANG AIR KECIL"}
+	]
+	
+	"world3":
+	[
+		{"question":"Caught wet while stealing",		"answer":"DITANGKAP BASAH KETIKA MENCURI"},
+		{"question":"Barrel empty aloud sound",			"answer":"TONG KOSONG NYARING BUNYINYA"},
+		{"question":"Know burn taste delicious",		"answer":"TAHU BAKAR RASANYA LEZAT"},
+		{"question":"He already think cook cook",		"answer":"DIA SUDAH BERPIKIR MASAK MASAK"},
+		{"question":"Don't rich people difficult",		"answer":"JANGAN KAYA ORANG SUSAH"},
+
+		{"question":"I happy if eat salary blind",		"answer":"AKU SENANG JIKA MAKAN GAJI BUTA"},
+		{"question":"No available rattan root so",		"answer":"TIDAK ADA ROTAN AKAR JADI"},
+		{"question":"Star small at sky that blue",		"answer":"BINTANG KECIL DI LANGIT YANG BIRU"},
+		{"question":"Rice already become porridge",		"answer":"NASI SUDAH MENJADI BUBUR"},
+		{"question":"I say safe repeat year",			"answer":"AKU UCAPKAN SELAMAT ULANG TAHUN"},
+	]
+
+	"world4":
+	[
+		{"question":"After sweet, waste throw away",		"answer":"HABIS MANIS SEPAH DIBUANG"},
+		{"question":"Blood high make he like angry",		"answer":"DARAH TINGGI MEMBUAT DIA SUKA MARAH"},
+		{"question":"Mind empty make i no can work",		"answer":"PIKIRAN KOSONG MEMBUAT AKU TIDAK BISA BERKERJA"},
+		{"question":"If you same always i want break",		"answer":"KALAU KAMU SAMA TERUS AKU MAU PUTUS"},
+		{"question":"Little little have police sleep",		"answer":"SEDIKIT SEDIKIT ADA POLISI TIDUR"},
+
+		{"question":"I return village up train fire",		"answer":"AKU PULANG KAMPUNG NAIK KERETA API"},
+		{"question":"Little – little wrong, when right ?",	"answer":"SEDIKIT SEDIKIT SALAH KAPAN BENAR"},
+		{"question":"Price leg five quality star five",		"answer":"HARGA KAKI LIMA KUALITAS BINTANG LIMA"},
+		{"question":"Warrior nation fragrant his name",		"answer":"PENDEKAR BANGSA HARUM NAMANYA"},
+		{"question":"People lazy lift leg from office",		"answer":"ORANG PEMALAS ANGKAT KAKI DARI KANTOR"},
+	]
+	
+	"world5":
+	[
+		{"question":"Dizzy seven round i thinking you",			"answer":"PUSING TUJUH KELILING AKU MEMIKIRKAN KAMU"},
+		{"question":"Enough once I failure love.",				"answer":"CUKUP SEKALI AKU GAGAL BERCINTA"},
+		{"question":"wash eye walk walk without money",			"answer":"CUCI MATA JALAN JALAN TANPA UANG"},
+		{"question":"Heavy same lift, light same carry",		"answer":"BERAT SAMA DIPIKUL RINGAN SAMA DIJINJING"},
+		{"question":"once paddle two three island past",		"answer":"SEKALI DAYUNG DUA TIGA PULAU TERLEWATI"},
+
+		{"question":"Save base rich diligent base smart",		"answer":"HEMAT PANGKAL KAYA RAJIN PANGKAL PANDAI"},
+		{"question":"Time for us show tooth",					"answer":"WAKTU UNTUK KITA UNJUK GIGI"},
+		{"question":"Up up to top mountain, high high once",	"answer":"NAIK NAIK KE PUNCAK GUNUNG TINGGI TINGGI SEKALI"},
+		{"question":"love man that only clapping side hand",	"answer":"CINTA PRIA ITU HANYA BERTEPUK SEBELAH TANGAN"},
+		{"question":"Every child is fruit heart people old",	"answer":"SETIAP ANAK ADALAH BUAH HATI ORANG TUA"},
+	]
+	
+	"world6":
+	[
+		{"question":"leg arm boss i look scary",					"answer":"KAKI TANGAN BOS AKU TERLIHAT SERAM"},
+		{"question":"Child fruit lazy i play play facebook",		"answer":"ANAK BUAH PEMALAS AKU MAIN MAIN MUKA BUKU"},
+		{"question":"Cutting price make she shop pig blindy",		"answer":"POTONGAN HARGA BUAT DIA BELANJA MEMBABI BUTA"},
+		{"question":"Belly sick no can throw away water big",		"answer":"PERUT SAKIT TIDAK BISA BUANG AIR BESAR"},
+		{"question":"Dont throw away water small carelessly",		"answer":"JANGAN BUANG AIR KECIL SEMBARANGAN"},
+
+		{"question":"Shit fly big at face i make beautifull",		"answer":"TAHI LALAT BESAR DI WAJAH AKU MEMBUAT CANTIK"},
+		{"question":"Egg eye cow is eat morning that healthy",		"answer":"TELUR MATA SAPI ADALAH MAKAN PAGI YANG SEHAT"},
+		{"question":"Along walk memory we always holding hand",		"answer":"SEPANJANG JALAN KENANGAN KITA SELALU BERGANDENG TANGAN"},
+		{"question":"Person arm long caught wet stealing chicken",	"answer":"ORANG TANGAN PANJANG TERTANGKAP BASAH MENCURI AYAM"},
+		{"question":"Love real no eaten by time",					"answer":"CINTA SEJATI TIDAK TERMAKAN OLEH WAKTU"},
+	]
+	
+	"world7":
+	[
+		{"question":"Different in mouth different in heart",		"answer":"LAIN DI MULUT LAIN DI HATI"},
+		{"question":"Throw rock hide hand",							"answer":"LEMPAR BATU SEMBUNYI TANGAN"},
+		{"question":"Tongue no bone",								"answer":"LIDAH TIDAK BERTULANG"},
+		{"question":"Enemy in blanket",								"answer":"MUSUH DALAM SELIMUT"},
+		{"question":"Far in eye close in heart",					"answer":"JAUH DI MATA DEKAT DI HATI"},
+
+		{"question":"Nut forget skin",								"answer":"KACANG LUPA KULIT"},
+		{"question":"No have ivory no crack",						"answer":"TIDAK ADA GADING TIDAK RETAK"},
+		{"question":"Like bird in cage",							"answer":"BAGAIKAN BURUNG DALAM SANGKAR"},
+		{"question":"Open hole close hole",							"answer":"BUKA LUBANG TUTUP LUBANG"},
+		{"question":"Teacher pee stand student pee run",			"answer":"GURU KENCING BERDIRI MURID KENCING BERLARI"},
+	]
+	
+	"world8":
+	[
+		{"question":"I so bring feeling if asked when marriage",		"answer":"AKU JADI BAWA PERASAAN JIKA DITANYA KAPAN NIKAH"},
+		{"question":"See former add pretty now make i bring feeling",	"answer":"LIHAT MANTAN TAMBAH CANTIK SEKARANG BUAT SAYA BAWA PERASAAN"},
+		{"question":"House sick content people sick, you don't say",	"answer":"RUMAH SAKIT ISINYA ORANG SAKIT KAMU TIDAK BILANG"},
+		{"question":"Doctor sick soul no sick soul",					"answer":"DOKTER SAKIT JIWA TIDAK SAKIT JIWA"},
+		{"question":"Child new big up motorcycle like chili chili",		"answer":"ANAK BARU GEDE NAIK MOTOR SEPERTI CABE CABE"},
+
+		{"question":"Continue shining like before taken people other",	"answer":"TERUS TERANG SUKA SEBELUM DIAMBIL ORANG LAIN"},
+		{"question":"Person rich new like high liver",					"answer":"ORANG KAYA BARU SUKA TINGGI HATI"},
+		{"question":"long hand short leg jump jump hanging",			"answer":"PANJANG TANGAN PENDEK KAKI LONCAT LONCAT GELANTUNGAN"},
+		{"question":"you hard head like stone multiple",				"answer":"KAMU KERAS KEPALA SEPERTI BATU KALI"},
+		{"question":"With heavy liver i want break",					"answer":"DENGAN BERAT HATI AKU MAU PUTUS"},
+	]
+	
+	"world9":
+	[
+		{"question":"Cape silver edge sea. Who like can follow.",					"answer":"TANJUNG PERAK TEPI LAUT SIAPA SUKA BOLEH IKUT"},
+		{"question":"Susi susanti is legend fur block Indonesia",					"answer":"SUSI SUSANTI ADALAH LEGENDA BULU TANGKIS INDONESIA"},
+		{"question":"Couple that talking four eye and angry angry",					"answer":"PASANGAN ITU BERBICARA EMPAT MATA DAN MARAH MARAH"},
+		{"question":"Joey Alexander is child gold Indonesia at music",				"answer":"JOEY ALEXANDER ADALAH ANAK EMAS INDONESIA DI MUSIK"},
+		{"question":"As clever - clever squirrel jump sure will fall also",			"answer":"SEPANDAI PANDAINYA TUPAI MELOMPAT PASTI AKAN JATUH JUGA"},
+
+		{"question":"Government with fast down hand finish disaster flood",			"answer":"PEMERINTAH DENGAN CEPAT TURUN TANGAN MENYELESAIKAN BENCANA BANJIR"},
+		{"question":"Ayu ting-ting up leaf while singing song address fake",		"answer":"AYU TING TING NAIK DAUN SAAT MENYANYIKAN LAGU ALAMAT PALSU"},
+		{"question":"work slam bone from morning arrive night salary no up up",		"answer":"KERJA BANTING TULANG DARI PAGI SAMPAI MALAM GAJI TIDAK NAIK NAIK"},
+		{"question":"While sick heart i feel but still patient face all",			"answer":"WALAU SAKIT HATI AKU RASAKAN TAPI TETAP SABAR HADAPI SEMUA"},
+		{"question":"Intent heart hug mountain, what power hand no until",			"answer":"MAKSUD HATI MEMELUK GUNUNG APA DAYA TANGAN TIDAK SAMPAI"},
+	]
+
+	"world10":
+	[
+		{"question":"Lose become ash win become charcoal", 							"answer":"KALAH JADI ABU MENANG JADI ARANG"},
+		{"question":"Big peg than pole", 											"answer":"BESAR PASAK DARIPADA TIANG"},
+		{"question":"While dive drink water",										"answer":"SAMBIL MENYELAM MINUM AIR"},
+		{"question":"Exist sugar exist ant",	 									"answer":"ADA GULA ADA SEMUT"},
+		{"question":"Storm certainly pass", 										"answer":"BADAI PASTI BERLALU"},
+
+		{"question":"Unite we firm divorced we collapse", 							"answer":"BERSATU KITA TEGUH BERCERAI KITA RUNTUH"},
+		{"question":"Fruit fall no far from tree", 									"answer":"BUAH JATUH TIDAK JAUH DARI POHON"},
+		{"question":"Warm warm poop chicken", 										"answer":"HANGAT HANGAT TAHI AYAM"},
+		{"question":"Black above white", 											"answer":"HITAM DIATAS PUTIH"},
+		{"question":"No know shame base face wall", 								"answer":"TIDAK TAHU MALU DASAR MUKA TEMBOK"},
+	]
+
+	"world11":
+	[	
+		{"question":"Live shy dead not want", 										"answer":"HIDUP SEGAN MATI TAK MAU"},
+		{"question":"One island one nation one language we", 						"answer":"SATU NUSA SATU BANGSA SATU BAHASA KITA"},
+		{"question":"Water ripple sign no deep", 									"answer":"AIR BERIAK TANDA TAK DALAM"},
+		{"question":"Like owl miss moon", 											"answer":"BAGAI PUNGGUK MERINDUKAN REMBULAN"},
+		{"question":"Lizard lizard perch at wall", 									"answer":"CICAK CICAK HINGGAP DI DINDING"},
+
+		{"question":"Water milk replied water poison", 								"answer":"AIR SUSU DIBALAS AIR TUBA"},
+		{"question":"Word word this crunchy", 										"answer":"KATA KATA INI GARING"},
+		{"question":"Pat water in tray splashed face self", 						"answer":"MENEPUK AIR DI DULANG TERPERCIK MUKA SENDIRI"},
+		{"question":"Good diligent saving and not arrogant", 						"answer":"BAIK RAJIN MENABUNG DAN TIDAK SOMBONG"},
+		{"question":"Done fall override ladder override tree", 						"answer":"SUDAH JATUH TERTIMPA TANGGA TERTIMPA POHON"},
+	]
+
+	"world12":
+	[
+		{"question":"I after think cook cook",										"answer":"AKU SUDAH PIKIR MASAK MASAK"},
+		{"question":"Rice fry crazy use egg eye cow", 								"answer":"NASI GORENG GILA PAKAI TELUR MATA SAPI"},
+		{"question":"Exist what with love", 										"answer":"ADA APA DENGAN CINTA"},
+		{"question":"Wake sleep me continue bath", 									"answer":"BANGUN TIDUR KU TERUS MANDI"},
+		{"question":"Duck chili green ice drunk", 									"answer":"BEBEK CABE HIJAU ES TELER"},
+
+		{"question":"Lose win name also play", 										"answer":"MENANG KALAH NAMANYA JUGA MAIN"},
+		{"question":"Seven mercy august year four five", 							"answer":"TUJUH BELAS AGUSTUS TAHUN EMPAT LIMA"},
+		{"question":"Bite finger see former marry more first", 						"answer":"GIGIT JARI LIHAT MANTAN NIKAH LEBIH DULU"},
+		{"question":"Bird brother old perch at window", 							"answer":"BURUNG KAKAK TUA HINGGAP DI JENDELA"},
+		{"question":"Raft raft to headwater swim swim to edge", 					"answer":"BERAKIT RAKIT KE HULU BERENANG RENANG KE TEPIAN"},
+	]
+
+	"world13":
+	[
+		{"question":"people mad in light red",							"answer":"ORANG GILA DI LAMPU MERAH"},
+		{"question":"lady pretty with shoes right high",				"answer":"WANITA CANTIK DENGAN SEPATU HAK TINGGI"},
+		{"question":"I like people talk continue bright",				"answer":"AKU SUKA ORANG BICARA TERUS TERANG"},
+		{"question":"man that champion lift iron",						"answer":"PRIA ITU JUARA ANGKAT BESI"},
+		{"question":"drink water white body healthy",					"answer":"MINUM AIR PUTIH BADAN SEHAT"},
+
+		{"question":"come and go no farewell",							"answer":"DATANG DAN PERGI TIDAK PAMIT"},
+		{"question":"child little use glass eye",						"answer":"ANAK KECIL PAKAI KACA MATA"},
+		{"question":"like egg on end horn",								"answer":"BAGAI TELUR DI UJUNG TANDUK"},
+		{"question":"no may throw trash carelessly",					"answer":"TIDAK BOLEH BUANG SAMPAH SEMBARANGAN"},
+		{"question":"eat no eat origin together",						"answer":"MAKAN TIDAK MAKAN ASAL KUMPUL"},
+	]
+
+	"world14":
+	[
+		{"question":"up motorcyle use helmet",							"answer":"NAIK MOTOR PAKAI HELM"},
+		{"question":"this myself what presence",						"answer":"INI DIRIKU APA ADANYA"},
+		{"question":"don't come if exist want",							"answer":"JANGAN DATANG KALAU ADA MAUNYA"},
+		{"question":"like thorn inside husk",							"answer":"BAGAI DURI DALAM SEKAM"},
+		{"question":"you must fast return",								"answer":"KAMU HARUS CEPAT PULANG"},
+
+		{"question":"wound old repeat return",							"answer":"LUKA LAMA TERULANG KEMBALI"},
+		{"question":"shirt feet i disappear beside",					"answer":"KAOS KAKI AKU HILANG SEBELAH"},
+		{"question":"heart grandma recurrent again",					"answer":"JANTUNG NENEK KUMAT LAGI"},
+		{"question":"vegetable acid and egg salty",						"answer":"SAYUR ASAM DAN TELUR ASIN"},
+		{"question":"teacher that have hand iron",						"answer":"GURU ITU PUNYA TANGAN BESI"},
+	]
+
+	"world15":
+	[
+		{"question":"girl that champion throw javelin",					"answer":"GADIS ITU JUARA LEMPAR LEMBING"},
+		{"question":"time front exist in hand",							"answer":"MASA DEPAN ADA DI TANGAN"},
+		{"question":"market morning mango two",							"answer":"PASAR PAGI MANGGA DUA"},
+		{"question":"i again sit relax",								"answer":"AKU LAGI DUDUK SANTAI"},
+		{"question":"most hard wake morning",							"answer":"PALING SUSAH BANGUN PAGI"},
+
+		{"question":"coffee thick sweet sugar stone",					"answer":"KOPI KENTAL MANIS GULA BATU"},
+		{"question":"road jammed at cape west",							"answer":"JALAN MACET DI TANJUNG BARAT"},
+		{"question":"time young so beautiful",							"answer":"MASA MUDA BEGITU INDAH"},
+		{"question":"eye i smarting hit dust",							"answer":"MATA AKU PERIH KENA DEBU"},
+		{"question":"body tall like pole electric",						"answer":"BADAN TINGGI BAGAI TIANG LISTRIK"},
+	]
+}

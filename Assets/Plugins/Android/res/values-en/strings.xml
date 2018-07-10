@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!--  Login -->
+    <string name="auth.line.line.connect">LINE Login</string>
+    <string name="auth.line.guest.connect">GUEST Login</string>
+    
+    <string name="auth.line.guest.message.1">Starting the app as a guest. If you have aleady have a LINE ID, press[LINE Login]!</string>
+    <string name="auth.line.guest.message.2">You will lose all data associated with your LINE Login account if you perform Guest Login. Are you sure you want to continue?</string>
+    <string name="auth.line.guest.message.3">You can carry over your game data associated with your LINE account after LINE Login.\n(You will lose your all current data if you login with LINE. ).</string>
+    <string name="auth.line.game.terms.title">Terms</string> 
+    <string name="auth.line.game.terms.reload">Reload</string>
+    <string name="auth.line.game.terms.loading">Loading</string>
+    
+    <string name="auth.line.game.terms.allow">Agree</string>
+    <string name="auth.line.game.terms.cancel">Do not Agree</string>
+    
+    
+    <string name="auth.line.button.ok">OK</string>
+    <string name="auth.line.button.cancel">Cancel</string>
+    <string name="auth.line.button.close">Close</string>
+    
+</resources>

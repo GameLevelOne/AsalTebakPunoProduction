@@ -1,0 +1,261 @@
+fileFormatVersion: 2
+guid: d55a0882ded6b58449e6427808f385a4
+timeCreated: 1476163118
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: gunung_malam
+    21300002: gunung_pagi
+    21300004: guning_siang
+    21300006: jakarta_siluet_kota
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: gunung_malam
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 512
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 256, y: 112}
+        - {x: 254, y: 114}
+        - {x: 229, y: 85}
+        - {x: 219, y: 67}
+        - {x: 211, y: 77}
+        - {x: 191, y: 89}
+        - {x: 183, y: 91}
+        - {x: 161, y: 90}
+        - {x: 146, y: 91}
+        - {x: 128, y: 109}
+        - {x: 111, y: 118}
+        - {x: 97, y: 122}
+        - {x: 79, y: 121}
+        - {x: 69, y: 118}
+        - {x: 55, y: 109}
+        - {x: 34, y: 89}
+        - {x: 22, y: 73}
+        - {x: 14, y: 60}
+        - {x: -3, y: 26}
+        - {x: -9, y: 18}
+        - {x: -25, y: 33}
+        - {x: -38, y: 39}
+        - {x: -43, y: 41}
+        - {x: -60, y: 40}
+        - {x: -71, y: 34}
+        - {x: -86, y: 57}
+        - {x: -105, y: 77}
+        - {x: -128, y: 91}
+        - {x: -149, y: 91}
+        - {x: -154, y: 89}
+        - {x: -168, y: 83}
+        - {x: -178, y: 75}
+        - {x: -182, y: 85}
+        - {x: -209, y: 115}
+        - {x: -220, y: 123}
+        - {x: -233, y: 128}
+        - {x: -256, y: 128}
+        - {x: -256, y: -128}
+        - {x: -3, y: -128}
+        - {x: 15, y: -125}
+        - {x: 27, y: -128}
+        - {x: 256, y: -128}
+    - name: gunung_pagi
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 506
+        width: 512
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 256, y: 112}
+        - {x: 254, y: 114}
+        - {x: 229, y: 85}
+        - {x: 219, y: 67}
+        - {x: 211, y: 77}
+        - {x: 191, y: 89}
+        - {x: 183, y: 91}
+        - {x: 161, y: 90}
+        - {x: 146, y: 91}
+        - {x: 128, y: 109}
+        - {x: 111, y: 118}
+        - {x: 97, y: 122}
+        - {x: 79, y: 121}
+        - {x: 69, y: 118}
+        - {x: 55, y: 109}
+        - {x: 34, y: 89}
+        - {x: 22, y: 73}
+        - {x: 14, y: 60}
+        - {x: -3, y: 26}
+        - {x: -9, y: 18}
+        - {x: -25, y: 33}
+        - {x: -38, y: 39}
+        - {x: -43, y: 41}
+        - {x: -60, y: 40}
+        - {x: -72, y: 33}
+        - {x: -86, y: 57}
+        - {x: -105, y: 77}
+        - {x: -120, y: 86}
+        - {x: -128, y: 91}
+        - {x: -155, y: 91}
+        - {x: -168, y: 83}
+        - {x: -178, y: 75}
+        - {x: -182, y: 85}
+        - {x: -209, y: 115}
+        - {x: -220, y: 122}
+        - {x: -231, y: 128}
+        - {x: -256, y: 128}
+        - {x: -256, y: -128}
+        - {x: -3, y: -128}
+        - {x: 15, y: -125}
+        - {x: 27, y: -128}
+        - {x: 256, y: -128}
+    - name: guning_siang
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 244
+        width: 512
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 256, y: -128}
+        - {x: 256, y: 112}
+        - {x: 253, y: 113}
+        - {x: 243, y: 103}
+        - {x: 231, y: 86}
+        - {x: 225, y: 78}
+        - {x: 221, y: 71}
+        - {x: 202, y: 83}
+        - {x: 186, y: 90}
+        - {x: 171, y: 91}
+        - {x: 164, y: 91}
+        - {x: 151, y: 87}
+        - {x: 132, y: 108}
+        - {x: 105, y: 122}
+        - {x: 83, y: 122}
+        - {x: 73, y: 120}
+        - {x: 56, y: 111}
+        - {x: 35, y: 92}
+        - {x: 10, y: 57}
+        - {x: -7, y: 16}
+        - {x: -17, y: 26}
+        - {x: -26, y: 34}
+        - {x: -39, y: 41}
+        - {x: -74, y: 40}
+        - {x: -89, y: 60}
+        - {x: -98, y: 71}
+        - {x: -119, y: 87}
+        - {x: -130, y: 92}
+        - {x: -153, y: 91}
+        - {x: -170, y: 83}
+        - {x: -177, y: 76}
+        - {x: -183, y: 87}
+        - {x: -214, y: 121}
+        - {x: -231, y: 128}
+        - {x: -256, y: 128}
+        - {x: -256, y: -128}
+    - name: jakarta_siluet_kota
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 512
+        height: 237
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 238, y: 64.5}
+        - {x: 236, y: 66.5}
+        - {x: 174, y: 66.5}
+        - {x: 172, y: 64.5}
+        - {x: 172, y: 21.5}
+        - {x: 111, y: 21.5}
+        - {x: 111, y: 118.5}
+        - {x: 32, y: 118.5}
+        - {x: 32, y: -6.5}
+        - {x: -2, y: -6.5}
+        - {x: -2, y: 12.5}
+        - {x: -4, y: 88.5}
+        - {x: -5, y: 107.5}
+        - {x: -6, y: 111.5}
+        - {x: -16, y: 106.5}
+        - {x: -21, y: 99.5}
+        - {x: -47, y: 76.5}
+        - {x: -56, y: 67.5}
+        - {x: -56, y: 44.5}
+        - {x: -55, y: 37.5}
+        - {x: -74, y: 37.5}
+        - {x: -74, y: 100.5}
+        - {x: -76, y: 102.5}
+        - {x: -160, y: 102.5}
+        - {x: -162, y: 100.5}
+        - {x: -162, y: -6.5}
+        - {x: -179, y: -6.5}
+        - {x: -179, y: 35.5}
+        - {x: -181, y: 37.5}
+        - {x: -238, y: 37.5}
+        - {x: -240, y: 35.5}
+        - {x: -256, y: -4.5}
+        - {x: -256, y: -118.5}
+        - {x: 256, y: -118.5}
+        - {x: 256, y: -6.5}
+        - {x: 238, y: -6.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

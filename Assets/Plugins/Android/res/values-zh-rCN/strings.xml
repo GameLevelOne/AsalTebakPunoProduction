@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!--  Login -->
+    <string name="auth.line.line.connect">LINE用户登录</string>
+    <string name="auth.line.guest.connect">游客登录</string>
+    
+    <string name="auth.line.guest.message.1">以游客身份开始游戏。如果您是LINE用户，请选择[LINE用户登录]。</string>
+    <string name="auth.line.guest.message.2">如果您之前是以LINE用户登录的方式进行游戏的，以游客身份登录时之前的资料将会被删除。您确定要以游客身份登录吗？</string>
+    <string name="auth.line.guest.message.3">用LINE用户登录可以保存游戏资料。\n（当前的游戏资料将被清除）</string>
+    <string name="auth.line.game.terms.title">使用条款</string> 
+    <string name="auth.line.game.terms.reload">加载</string>
+    <string name="auth.line.game.terms.loading">加载中</string>
+    
+    <string name="auth.line.game.terms.allow">同意</string>
+    <string name="auth.line.game.terms.cancel">不同意</string>
+    
+    
+    <string name="auth.line.button.ok">OK</string>
+    <string name="auth.line.button.cancel">取消</string>
+    <string name="auth.line.button.close">关闭</string>
+    
+</resources>

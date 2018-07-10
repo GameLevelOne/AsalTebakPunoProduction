@@ -1,0 +1,348 @@
+fileFormatVersion: 2
+guid: a8eb9a18e0020484586c418f9bac8c30
+timeCreated: 1478853180
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: bali1-1_rev_big
+    21300002: bali1-2_rev_big
+    21300004: bali1-3_rev_big
+    21300006: jakarta1-1_rev_big
+    21300008: jakarta1-2_rev_big
+    21300010: jakarta1-3_rev_big
+    21300012: jogja2-1
+    21300014: jogja2-2
+    21300016: jogja2-3
+    21300018: padang1-1_rev_big
+    21300020: padang1-2_rev_big
+    21300022: padang1-3_rev_big
+    21300024: toraja1-1
+    21300026: toraja1-2
+    21300028: toraja1-3
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: bali1-1_rev_big
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 385
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43, y: 63}
+        - {x: -63, y: 54}
+        - {x: -63, y: -63}
+        - {x: 37, y: -63}
+        - {x: 63, y: -55}
+        - {x: 63, y: 29}
+        - {x: 42, y: 63}
+    - name: bali1-2_rev_big
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 257
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43, y: 63}
+        - {x: -63, y: 54}
+        - {x: -63, y: -63}
+        - {x: 37, y: -63}
+        - {x: 63, y: -55}
+        - {x: 63, y: 29}
+        - {x: 42, y: 63}
+    - name: bali1-3_rev_big
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 129
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43, y: 63}
+        - {x: -63, y: 54}
+        - {x: -63, y: -63}
+        - {x: 37, y: -63}
+        - {x: 63, y: -55}
+        - {x: 63, y: 29}
+        - {x: 42, y: 63}
+    - name: jakarta1-1_rev_big
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43, y: 63}
+        - {x: -63, y: 54}
+        - {x: -63, y: -63}
+        - {x: 37, y: -63}
+        - {x: 63, y: -55}
+        - {x: 63, y: 29}
+        - {x: 42, y: 63}
+    - name: jakarta1-2_rev_big
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 385
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43, y: 63}
+        - {x: -63, y: 54}
+        - {x: -63, y: -63}
+        - {x: 37, y: -63}
+        - {x: 63, y: -55}
+        - {x: 63, y: 29}
+        - {x: 42, y: 63}
+    - name: jakarta1-3_rev_big
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 385
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43, y: 63}
+        - {x: -63, y: 54}
+        - {x: -63, y: -63}
+        - {x: 37, y: -63}
+        - {x: 63, y: -55}
+        - {x: 63, y: 29}
+        - {x: 42, y: 63}
+    - name: jogja2-1
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 385
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41, y: 63}
+        - {x: -63, y: 28}
+        - {x: -63, y: -63}
+        - {x: 63, y: -63}
+        - {x: 63, y: 51}
+        - {x: 36, y: 63}
+    - name: jogja2-2
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 257
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: 63}
+        - {x: -63, y: -59}
+        - {x: -62, y: -63}
+        - {x: 42, y: -63}
+        - {x: 63, y: -50}
+        - {x: 63, y: 51}
+        - {x: 47, y: 63}
+    - name: jogja2-3
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 129
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: 63}
+        - {x: -63, y: -59}
+        - {x: -62, y: -63}
+        - {x: 42, y: -63}
+        - {x: 63, y: -50}
+        - {x: 63, y: 51}
+        - {x: 47, y: 63}
+    - name: padang1-1_rev_big
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43, y: 63}
+        - {x: -63, y: 54}
+        - {x: -63, y: -63}
+        - {x: 37, y: -63}
+        - {x: 63, y: -55}
+        - {x: 63, y: 29}
+        - {x: 42, y: 63}
+    - name: padang1-2_rev_big
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 257
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43, y: 63}
+        - {x: -63, y: 54}
+        - {x: -63, y: -63}
+        - {x: 37, y: -63}
+        - {x: 63, y: -55}
+        - {x: 63, y: 29}
+        - {x: 42, y: 63}
+    - name: padang1-3_rev_big
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 257
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43, y: 63}
+        - {x: -63, y: 54}
+        - {x: -63, y: -63}
+        - {x: 37, y: -63}
+        - {x: 63, y: -55}
+        - {x: 63, y: 29}
+        - {x: 42, y: 63}
+    - name: toraja1-1
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 129
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 50, y: 63}
+        - {x: -45, y: 63}
+        - {x: -63, y: 58}
+        - {x: -63, y: -34}
+        - {x: -34, y: -63}
+        - {x: 35, y: -63}
+        - {x: 39, y: -62}
+        - {x: 63, y: -40}
+        - {x: 63, y: 33}
+        - {x: 60, y: 47}
+    - name: toraja1-2
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62, y: 63}
+        - {x: -63, y: 62}
+        - {x: -63, y: -48}
+        - {x: -32, y: -63}
+        - {x: 47, y: -63}
+        - {x: 63, y: -41}
+        - {x: 63, y: 25}
+        - {x: 40, y: 63}
+    - name: toraja1-3
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 129
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 50, y: 63}
+        - {x: -45, y: 63}
+        - {x: -63, y: 58}
+        - {x: -63, y: -34}
+        - {x: -34, y: -63}
+        - {x: 35, y: -63}
+        - {x: 39, y: -62}
+        - {x: 63, y: -40}
+        - {x: 63, y: 33}
+        - {x: 60, y: 47}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
