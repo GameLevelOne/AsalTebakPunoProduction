@@ -39,17 +39,14 @@ public class MenuSceneController : MonoBehaviour {
 
 	void OnLevelWasLoaded ()
 	{
-		if (GameData._isLoggedIn) {
-			loginScreen.SetActive(false);
-			MobilPuno.SetActive(true);
-		}
+		ShowMainMenu();
 	}
 
 	void Start ()
 	{	
 		if (GameData.loginTypeValue == (int)eLoginType.FACEBOOK) {
 			Debug.Log("fb auto login");
-			LINEController.lineControllerInstance.OnFbLoginSuccessful();
+			//LINEController.lineControllerInstance.OnFbLoginSuccessful();
 		}
 //		if (!String.IsNullOrEmpty (GameData.loginUserNameValue)) {
 //			loginScreen.SetActive (false);
@@ -97,7 +94,32 @@ public class MenuSceneController : MonoBehaviour {
 	}
 	#endregion
 //----------------------------------------------------------------------------------------------------
+	void ShowMainMenu()
+	{
+		
+		if (GameData._isLoggedIn) {
+			setDisplayName();
+			FBController.instance.OnLoginSuccessful -= ShowMainMenu;
+			loginScreen.SetActive(false);
+			MobilPuno.SetActive(true);
+		}
+	}
+	
 	#region button functions
+
+	public void ButtonFBLoginOnClick()
+	{
+		FBController.instance.OnLoginSuccessful += ShowMainMenu;
+		FBController.instance.CallFBLogin();
+	}
+
+	public void ButtonGuessOnClick()
+	{
+		//GameData._isLoggedIn = true;
+		setDisplayName();
+		loginScreen.SetActive(false);
+		MobilPuno.SetActive(true);
+	}
 
 	public void OnTapToPlay ()
 	{
@@ -231,7 +253,7 @@ public class MenuSceneController : MonoBehaviour {
 	public void OnBtn_LogInOut ()
 	{
 		//show login screen
-		LINEController.lineControllerInstance.showLoginScreen(GameData.loginTypeValue);
+		//LINEController.lineControllerInstance.showLoginScreen(GameData.loginTypeValue);
 		bgmMenu.Stop();
 		sfxMenu.Stop();
 		loginScreen.SetActive(true);
@@ -334,8 +356,12 @@ public class MenuSceneController : MonoBehaviour {
 	#endregion
 //----------------------------------------------------------------------------------------------------
 	#region PUBLIC functions
-	public void setDisplayName (string name){
-		txt_UserName.text = "Hello, \n" + name;
+	public void setDisplayName (){
+		string name = string.Empty;
+		if(GameData._isLoggedIn) name = GameData.loginUserNameValue;
+		else name = "Guest";
+		txt_UserName.text ="Hello, \n" + name;
+		// txt_UserName.text = "Hello, \n" + name;
 	}
 
 	#endregion

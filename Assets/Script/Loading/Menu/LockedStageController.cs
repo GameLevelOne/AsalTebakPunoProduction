@@ -11,9 +11,9 @@ public class LockedStageController : MonoBehaviour {
 	private bool checkStage = false;
 
 	void Start(){
-		for(int i=0;i<GameData.TotalStagePerWorld-1;i++){
-			Debug.Log (GameData.temp_checkLockedStg[i]);
-		}
+		// for(int i=0;i<GameData.TotalStagePerWorld-1;i++){
+		// 	Debug.Log (GameData.temp_checkLockedStg[i]);
+		// }
 	}
 
 	void Update ()

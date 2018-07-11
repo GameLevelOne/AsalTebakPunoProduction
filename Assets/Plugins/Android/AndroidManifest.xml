@@ -1,88 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.gemugemu.puno" android:installLocation="preferExternal" android:theme="@android:style/Theme.NoTitleBar" android:versionCode="1" android:versionName="0.9.7.2">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.unity3d.player" xmlns:tools="http://schemas.android.com/tools" android:installLocation="preferExternal">
   <supports-screens android:smallScreens="true" android:normalScreens="true" android:largeScreens="true" android:xlargeScreens="true" android:anyDensity="true" />
-  <!-- android:debuggable should be removed in release build -->
-  <application android:icon="@drawable/app_icon" android:label="@string/app_name" android:debuggable="true" android:name="com.linecorp.lgcorelite.LGCoreLiteApplication">
-    <activity android:name="com.unity3d.player.UnityPlayerProxyActivity" android:launchMode="singleTask" android:label="@string/app_name" android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen">
+  <application android:theme="@style/UnityThemeSelector" android:icon="@drawable/app_icon" android:label="@string/app_name">
+    <activity android:name="com.unity3d.player.UnityPlayerActivity" android:label="@string/app_name">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+      <meta-data android:name="unityplayer.UnityActivity" android:value="true" />
     </activity>
-    <activity android:name="com.unity3d.player.UnityPlayerActivity" android:launchMode="singleTask" android:label="@string/app_name" android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen">
-    </activity>
-    <activity android:name="com.unity3d.player.UnityPlayerNativeActivity" android:launchMode="singleTask" android:label="@string/app_name" android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen">
-	    <intent-filter>
-	        <action android:name="android.intent.action.MAIN" />
-	        <category android:name="android.intent.category.LAUNCHER" />
-	        <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
-	      </intent-filter>
-	      <intent-filter>
-	        <action android:name="android.intent.action.VIEW" />
-	        <category android:name="android.intent.category.DEFAULT" />
-	        <category android:name="android.intent.category.BROWSABLE" />
-	        <data android:scheme="LGPUNO" /> 
-	   	 </intent-filter>
-    </activity>
-      
-      <meta-data android:name="unityplayer.ForwardNativeEventsToDalvik" android:value="false" />
-
-    <!-- LINE SDK START -->
-        <activity
-            android:name="jp.line.android.sdk.activity.WebLoginActivity"
-            android:exported="false" 
-            android:configChanges="keyboardHidden|orientation"
-            android:screenOrientation="portrait" >
-        </activity>
-        <activity
-            android:name="jp.line.android.sdk.activity.LineAuthCompleteActivity"
-            android:configChanges="keyboardHidden|orientation"
-            android:screenOrientation="portrait" >
-            <intent-filter>
-                <action android:name="android.intent.action.VIEW" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.BROWSABLE" />
-                <data android:scheme="line.LGPUNO" /> 
-            </intent-filter>
-        </activity>
-        <meta-data 
-            android:name="jp.line.sdk.ChannelId"
-            android:value="1489377997"/>
-        <meta-data 
-            android:name="jp.line.sdk.AuthScheme"
-            android:value="line.LGPUNO"/>
-        <!-- DO NOT CHANGE THIS VALUE -->
-        <meta-data 
-            android:name="jp.line.sdk.Phase"
-            android:value="REAL"/>
-        <meta-data
-            android:name="jp.line.sdk.ActivityClassThatFiresWhenProcessWasKilled"
-            android:value="com.unity3d.player.UnityPlayerNativeActivity" />
-        <!-- LINE SDK END -->
-
-         <!-- This code allows Growthy to perform install receiver tracking-->
-      <receiver android:name="com.linecorp.common.android.growthy.InstallReferrerReceiver"
-            android:exported="true" >
-                <intent-filter>
-                        <action android:name="com.android.vending.INSTALL_REFERRER" />
-                </intent-filter>
-         </receiver>
-
-    <!-- Local notification receiver -->
-    <receiver android:name="net.agasper.unitynotification.UnityNotificationManager"></receiver>
-
-     <!-- Android GCM Plugin -->
-	<!-- Rewite app package name! -->
-	<receiver android:name="com.kskkbys.unitygcmplugin.UnityGCMBroadcastReceiver" android:permission="com.google.android.c2dm.permission.SEND" >
-	    <intent-filter>
-	        <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-	        <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
-	        <category android:name="com.gemugemu.puno" />
-	    </intent-filter>
-	</receiver>
-	<service android:name="com.kskkbys.unitygcmplugin.UnityGCMIntentService" />
-  <!-- Android GCM Plugin -->
-
     <activity android:name="com.facebook.unity.FBUnityLoginActivity" android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
     <activity android:name="com.facebook.unity.FBUnityDialogsActivity" android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
-    <activity android:name="com.facebook.LoginActivity" android:configChanges="keyboardHidden|orientation" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
     <activity android:name="com.facebook.unity.FBUnityAppLinkActivity" android:exported="true" />
     <activity android:name="com.facebook.unity.FBUnityDeepLinkingActivity" android:exported="true" />
     <activity android:name="com.facebook.unity.FBUnityGameRequestActivity" />
@@ -91,25 +19,5 @@
     <activity android:name="com.facebook.unity.AppInviteDialogActivity" />
     <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="fb1062544963838066" />
     <provider android:name="com.facebook.FacebookContentProvider" android:authorities="com.facebook.app.FacebookContentProvider1062544963838066" android:exported="true" />
-    <activity android:name="com.facebook.FacebookActivity" android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation" android:label="@string/app_name" android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-
-   </application>
-
-  <permission android:name="com.gemugemu.puno.permission.C2D_MESSAGE" android:protectionLevel="signature" />
-
-  <uses-permission android:name="android.permission.INTERNET" />
-  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-  <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-  <uses-permission android:name="android.permission.VIBRATE" />
-  <uses-permission android:name="com.gemugemu.puno.permission.C2D_MESSAGE" />
-  <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-  <uses-permission android:name="android.permission.GET_ACCOUNTS" />
-  <uses-permission android:name="android.permission.WAKE_LOCK" />
-  <uses-permission android:name="com.android.vending.BILLING" />
-  <uses-permission android:name="android.permission.GET_TASKS" />
- 
-  <uses-permission android:name="com.sec.android.iap.permission.BILLING" />
-
-
+  </application>
 </manifest>

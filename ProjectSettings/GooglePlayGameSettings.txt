@@ -1,5 +1,5 @@
-lastUpgrade=00935
-proj.pluginVersion=0.9.35
+lastUpgrade=00950
+proj.pluginVersion=0.9.50
 proj.AppId=698552919952
 and.BundleId=com.gemugemu.puno
 proj.classDir=Assets

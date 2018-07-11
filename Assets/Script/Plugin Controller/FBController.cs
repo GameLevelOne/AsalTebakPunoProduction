@@ -14,6 +14,9 @@ public class FBController : MonoBehaviour {
 		public const int LOGIN = 2;
 	}
 
+	public delegate void LoginSuccessful();
+	public event LoginSuccessful OnLoginSuccessful;
+
 	//share
 	private string shareLink = "https://fb.me/1087491038010125";
 	private string shareTitle = "Asal Tebak PUNO";
@@ -39,12 +42,14 @@ public class FBController : MonoBehaviour {
 			print ("login failed 02 : " + result);
 		} else if (!string.IsNullOrEmpty (result.RawResult)) { //success result
 			if (Application.loadedLevelName == "MenuScene") {
-				LINEController.lineControllerInstance.OnFbLoginSuccessful();
+				// LINEController.lineControllerInstance.OnFbLoginSuccessful();
 			} 
 			print("FB login success");
+			GameData._isLoggedIn = true;
 			getFBName ();
 			getFBEmail ();
 			getFBUserID();
+			if(OnLoginSuccessful != null) OnLoginSuccessful();
 		}
 		else {
 			print("login failed 03 : " + result);
@@ -83,28 +88,49 @@ public class FBController : MonoBehaviour {
 		instance = this;
 
 		if (!FB.IsInitialized) {
-			FB.Init (onFBInitComplete,null,null);
+			FB.Init (InitCallback,OnHideUnity,null);
 		} else {
 			FB.ActivateApp ();
 		}
 
-		Debug.Log("fbcontroller");
+		// Debug.Log("fbcontroller");
 	}
 
-	void Start ()
-	{
-		
-	}
+	private void InitCallback ()
+{
+    if (FB.IsInitialized) {
+        // Signal an app activation App Event
+        FB.ActivateApp();
+		// getFBName ();
+		// getFBEmail ();
+		// getFBUserID();
+        // Continue with Facebook SDK
+        // ...
+    } else {
+        Debug.Log("Failed to Initialize the Facebook SDK");
+    }
+}
 
-	private void onFBInitComplete (){
-		Debug.Log("fb finished init");
-		getFBName ();
-		getFBEmail ();
-		getFBUserID();
-	}
+private void OnHideUnity (bool isGameShown)
+{
+    // if (!isGameShown) {
+    //     // Pause the game - we will need to hide
+    //     Time.timeScale = 0;
+    // } else {
+    //     // Resume the game - we're getting focus again
+    //     Time.timeScale = 1;
+    // }
+}
+
+	// private void onFBInitComplete (){
+	// 	// Debug.Log("fb finished init");
+	// 	getFBName ();
+	// 	getFBEmail ();
+	// 	getFBUserID();
+	// }
 
 	public void CallFBLogin(){
-		Debug.Log("call fb login");
+		// Debug.Log("call fb login");
 		if(!FB.IsInitialized){
 			FB.Init ();
 		}
@@ -116,7 +142,7 @@ public class FBController : MonoBehaviour {
 	}
 
 	public void CallFBLogout(){
-		Debug.Log("call fb logout");
+		// Debug.Log("call fb logout");
 		FB.LogOut();
 	}
 
@@ -146,7 +172,7 @@ public class FBController : MonoBehaviour {
 		if (FB.IsLoggedIn) {
 			FB.API ("/me?fields=name", HttpMethod.GET, userCallBack);
 		} else if(!FB.IsLoggedIn) {
-			print ("fb not login");
+			// print ("fb not login");
 		}
 	}
  
@@ -158,7 +184,7 @@ public class FBController : MonoBehaviour {
 		if (FB.IsLoggedIn) {
 			FB.API ("/me?fields=email", HttpMethod.GET, emailCallBack);
 		} else if(!FB.IsLoggedIn) {
-			print ("fb not login");
+			// print ("fb not login");
 		}
 	}
 
@@ -170,7 +196,7 @@ public class FBController : MonoBehaviour {
 		if (FB.IsLoggedIn) {
 			FB.API ("/me?fields=id", HttpMethod.GET, userIdCallback);
 		} else if(!FB.IsLoggedIn) {
-			print ("fb not login");
+			// print ("fb not login");
 		}
 	}
 

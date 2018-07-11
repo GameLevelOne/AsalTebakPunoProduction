@@ -2,37 +2,38 @@ using System;
 using UnityEngine;
 using GoogleMobileAds.Api;
 
-public class GoogleMobileAdsDemoHandler : IDefaultInAppPurchaseProcessor
-{
-    private readonly string[] validSkus = { "android.test.purchased" };
+// public class GoogleMobileAdsDemoHandler : IDefaultInAppPurchaseProcessor
+// {
+    
+//     private readonly string[] validSkus = { "android.test.purchased" };
 
-    //Will only be sent on a success.
-    public void ProcessCompletedInAppPurchase(IInAppPurchaseResult result)
-    {
-        result.FinishPurchase();
-        GoogleMobileAdsDemoScript.OutputMessage = "Purchase Succeeded! Credit user here.";
-    }
+//     //Will only be sent on a success.
+//     public void ProcessCompletedInAppPurchase(IInAppPurchaseResult result)
+//     {
+//         result.FinishPurchase();
+//         GoogleMobileAdsDemoScript.OutputMessage = "Purchase Succeeded! Credit user here.";
+//     }
 
-    //Check SKU against valid SKUs.
-    public bool IsValidPurchase(string sku)
-    {
-        foreach(string validSku in validSkus)
-        {
-            if (sku == validSku)
-            {
-                return true;
-            }
-        }
-        return false;
-    }
+//     //Check SKU against valid SKUs.
+//     public bool IsValidPurchase(string sku)
+//     {
+//         foreach(string validSku in validSkus)
+//         {
+//             if (sku == validSku)
+//             {
+//                 return true;
+//             }
+//         }
+//         return false;
+//     }
 
-    //Return the app's public key.
-    public string AndroidPublicKey
-    {
-        //In a real app, return public key instead of null.
-        get { return null; }
-    }
-}
+//     //Return the app's public key.
+//     public string AndroidPublicKey
+//     {
+//         //In a real app, return public key instead of null.
+//         get { return null; }
+//     }
+// }
 
 // Example script showing how to invoke the Google Mobile Ads Unity plugin.
 public class GoogleMobileAdsDemoScript : MonoBehaviour

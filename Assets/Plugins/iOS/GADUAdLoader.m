@@ -2,21 +2,15 @@
 
 #import "GADUAdLoader.h"
 
-@import GoogleMobileAds;
-
 #import "GADUNativeCustomTemplateAd.h"
 #import "GADUObjectCache.h"
+#import "GADUPluginUtil.h"
 #import "UnityAppController.h"
 
 @interface GADUAdLoader () <GADAdLoaderDelegate, GADNativeCustomTemplateAdLoaderDelegate>
-
 @end
 
 @implementation GADUAdLoader
-
-+ (UIViewController *)unityGLViewController {
-  return ((UnityAppController *)[UIApplication sharedApplication].delegate).rootViewController;
-}
 
 - (instancetype)initWithAdLoaderClientReference:(GADUTypeAdLoaderClientRef *)adLoaderClient
                                        adUnitID:(NSString *)adUnitID
@@ -26,8 +20,8 @@
   if (self) {
     _adLoaderClient = adLoaderClient;
     _adLoader = [[GADAdLoader alloc] initWithAdUnitID:adUnitID
-                                   rootViewController:[GADUAdLoader unityGLViewController]
-                                              adTypes:@[ kGADAdLoaderAdTypeNativeCustomTemplate ]
+                                   rootViewController:[GADUPluginUtil unityGLViewController]
+                                              adTypes:adTypes
                                               options:nil];
     _adLoader.delegate = self;
     _templateIDs = [NSArray arrayWithArray:templateIDs];
@@ -59,13 +53,13 @@
 
 - (void)adLoader:(GADAdLoader *)adLoader
     didReceiveNativeCustomTemplateAd:(GADNativeCustomTemplateAd *)nativeCustomTemplateAd {
-  if (self.adReceivedCallback) {
+  if (self.customTemplateAdReceivedCallback) {
     GADUObjectCache *cache = [GADUObjectCache sharedInstance];
-    [cache.references setObject:self forKey:[self gadu_referenceKey]];
-    self.adReceivedCallback(
-        self.adLoaderClient,
-        (__bridge GADUTypeNativeCustomTemplateAdRef)
-            [[GADUNativeCustomTemplateAd alloc] initWithAd:nativeCustomTemplateAd],
+    GADUNativeCustomTemplateAd *internalNativeAd =
+        [[GADUNativeCustomTemplateAd alloc] initWithAd:nativeCustomTemplateAd];
+    [cache.references setObject:internalNativeAd forKey:[internalNativeAd gadu_referenceKey]];
+    self.customTemplateAdReceivedCallback(
+        self.adLoaderClient, (__bridge GADUTypeNativeCustomTemplateAdRef)internalNativeAd,
         [nativeCustomTemplateAd.templateID cStringUsingEncoding:NSUTF8StringEncoding]);
   }
 }

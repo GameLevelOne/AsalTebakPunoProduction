@@ -2,7 +2,6 @@
 using UnityEngine.UI;
 using System.Collections;
 
-using LGCoreLite;
 
 public class Logger : MonoBehaviour
 {
