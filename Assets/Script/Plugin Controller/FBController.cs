@@ -15,7 +15,9 @@ public class FBController : MonoBehaviour {
 	}
 
 	public delegate void LoginSuccessful();
+	public delegate void GetName(string name);
 	public event LoginSuccessful OnLoginSuccessful;
+	public event GetName OnGetName;
 
 	//share
 	private string shareLink = "https://fb.me/1087491038010125";
@@ -46,6 +48,7 @@ public class FBController : MonoBehaviour {
 			} 
 			print("FB login success");
 			GameData._isLoggedIn = true;
+			PlayerPrefs.SetInt("GuestLogin", 0);
 			getFBName ();
 			getFBEmail ();
 			getFBUserID();
@@ -91,6 +94,7 @@ public class FBController : MonoBehaviour {
 			FB.Init (InitCallback,OnHideUnity,null);
 		} else {
 			FB.ActivateApp ();
+			if(FB.IsLoggedIn) GameData._isLoggedIn = true;
 		}
 
 		// Debug.Log("fbcontroller");
@@ -132,7 +136,7 @@ private void OnHideUnity (bool isGameShown)
 	public void CallFBLogin(){
 		// Debug.Log("call fb login");
 		if(!FB.IsInitialized){
-			FB.Init ();
+			FB.Init (InitCallback,OnHideUnity,null);
 		}
 
 		lastAction = actionDictionary.LOGIN;
@@ -144,6 +148,7 @@ private void OnHideUnity (bool isGameShown)
 	public void CallFBLogout(){
 		// Debug.Log("call fb logout");
 		FB.LogOut();
+		GameData._isLoggedIn = false;
 	}
 
 	//share screenshoot baru
@@ -211,6 +216,7 @@ private void OnHideUnity (bool isGameShown)
 		var dict = Json.Deserialize (getNameData) as IDictionary;
 		PlayerPrefs.SetString (GameData.Key_fbname,dict ["name"].ToString ());
 		GameData.loginUserNameValue=dict ["name"].ToString ();
+		if(OnGetName != null) OnGetName(GameData.loginUserNameValue);
 		//GameData._fbName = dict ["name"].ToString ();
 	}
 

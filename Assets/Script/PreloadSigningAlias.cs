@@ -10,7 +10,7 @@ public class PreloadSigningAlias
 	static PreloadSigningAlias ()
 	{
 		PlayerSettings.Android.keystorePass = "punogl1";
-		PlayerSettings.Android.keyaliasName = "AsalTebakPunoKeystore";
+		PlayerSettings.Android.keyaliasName = "puno";
 		PlayerSettings.Android.keyaliasPass = "punogl1";
 	}
 

@@ -37,17 +37,12 @@ public class MenuSceneController : MonoBehaviour {
 		instance = this;
 	}
 
-	void OnLevelWasLoaded ()
-	{
-		ShowMainMenu();
-	}
-
 	void Start ()
 	{	
-		if (GameData.loginTypeValue == (int)eLoginType.FACEBOOK) {
-			Debug.Log("fb auto login");
+		// if (GameData.loginTypeValue == (int)eLoginType.FACEBOOK) {
+		// 	Debug.Log("fb auto login");
 			//LINEController.lineControllerInstance.OnFbLoginSuccessful();
-		}
+		// }
 //		if (!String.IsNullOrEmpty (GameData.loginUserNameValue)) {
 //			loginScreen.SetActive (false);
 //			punoLogo.SetActive (true);
@@ -86,6 +81,8 @@ public class MenuSceneController : MonoBehaviour {
 		BackgroundImgController.instance.setBackgroundImage();
 
 		GoogleMobileAdsDemoScript.instance.RequestBanner();
+
+		ShowMainMenu();
 	}
 
 	void Update(){
@@ -96,9 +93,8 @@ public class MenuSceneController : MonoBehaviour {
 //----------------------------------------------------------------------------------------------------
 	void ShowMainMenu()
 	{
-		
-		if (GameData._isLoggedIn) {
-			setDisplayName();
+		if (GameData._isLoggedIn || PlayerPrefs.GetInt("LoginGuest",0) == 1 ) {
+			SetDisplayName();
 			FBController.instance.OnLoginSuccessful -= ShowMainMenu;
 			loginScreen.SetActive(false);
 			MobilPuno.SetActive(true);
@@ -110,13 +106,15 @@ public class MenuSceneController : MonoBehaviour {
 	public void ButtonFBLoginOnClick()
 	{
 		FBController.instance.OnLoginSuccessful += ShowMainMenu;
+		FBController.instance.OnGetName += SetDisplayName;
 		FBController.instance.CallFBLogin();
 	}
 
 	public void ButtonGuessOnClick()
 	{
 		//GameData._isLoggedIn = true;
-		setDisplayName();
+		PlayerPrefs.SetInt("LoginGuest",1);
+		SetDisplayName();
 		loginScreen.SetActive(false);
 		MobilPuno.SetActive(true);
 	}
@@ -254,12 +252,18 @@ public class MenuSceneController : MonoBehaviour {
 	{
 		//show login screen
 		//LINEController.lineControllerInstance.showLoginScreen(GameData.loginTypeValue);
-		bgmMenu.Stop();
-		sfxMenu.Stop();
-		loginScreen.SetActive(true);
-		MobilPuno.SetActive(false);
-		asap.SetActive(false);
-		TapToPlay.SetActive(false);
+		
+		if(GameData._isLoggedIn){
+			FBController.instance.CallFBLogout();
+		}else{
+			bgmMenu.Stop();
+			sfxMenu.Stop();
+			loginScreen.SetActive(true);
+			MobilPuno.SetActive(false);
+			asap.SetActive(false);
+			TapToPlay.SetActive(false);
+		}
+		
 	}
 
 	public void OnBtn_Close (string sceneState)
@@ -356,12 +360,17 @@ public class MenuSceneController : MonoBehaviour {
 	#endregion
 //----------------------------------------------------------------------------------------------------
 	#region PUBLIC functions
-	public void setDisplayName (){
+	public void SetDisplayName (){
 		string name = string.Empty;
 		if(GameData._isLoggedIn) name = GameData.loginUserNameValue;
 		else name = "Guest";
 		txt_UserName.text ="Hello, \n" + name;
 		// txt_UserName.text = "Hello, \n" + name;
+	}
+
+	public void SetDisplayName(string name){
+		txt_UserName.text = "Hello, \n" + name;
+		FBController.instance.OnGetName -= SetDisplayName;
 	}
 
 	#endregion

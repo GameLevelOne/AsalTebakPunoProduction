@@ -37,6 +37,7 @@ public static class GameData{
 	private static bool soundDisable;
 	private static bool isConnected;
 	private static bool isLoggedIn = false;
+	
 	private static bool lineInit = false;
 //	private static bool lineLogin = false;
 	private static bool newLogin = true;
