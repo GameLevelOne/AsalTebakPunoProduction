@@ -2,7 +2,6 @@
 using UnityEngine.UI;
 using System.Collections;
 using UnityEngine.SocialPlatforms;
-using Facebook.Unity;
 using System;
 using System.Globalization;
 
@@ -30,12 +29,12 @@ public class MenuSceneController : MonoBehaviour {
 	public AudioSource bgmMenu,sfxMenu;
 	public AudioClip musicWorldStage,sfxButton;
 
-	private IResult result;
+    private bool _isEditor;
 
 	void Awake(){
 //		CheckingInternetConnection.instance.checkInternetConnection ();
 		instance = this;
-	}
+    }
 
 	void Start ()
 	{	
@@ -50,8 +49,10 @@ public class MenuSceneController : MonoBehaviour {
 //		} 
 
 		//first play achievement
+        _isEditor = true;
 		#if !UNITY_EDITOR
 		GPAchievementController.instance._achievement_new_player();
+        _isEditor = false;
 		#endif
 
 		print ("onMenuScreen : " + GameData._onMenuScreen);
@@ -93,9 +94,8 @@ public class MenuSceneController : MonoBehaviour {
 //----------------------------------------------------------------------------------------------------
 	void ShowMainMenu()
 	{
-		if (GameData._isLoggedIn || PlayerPrefs.GetInt("LoginGuest",0) == 1 ) {
+        if (GameData._isLoggedIn || PlayerPrefs.GetInt("LoginGuest",0) == 1 ) {
 			SetDisplayName();
-			FBController.instance.OnLoginSuccessful -= ShowMainMenu;
 			loginScreen.SetActive(false);
 			MobilPuno.SetActive(true);
 		}
@@ -103,12 +103,25 @@ public class MenuSceneController : MonoBehaviour {
 	
 	#region button functions
 
-	public void ButtonFBLoginOnClick()
-	{
-		FBController.instance.OnLoginSuccessful += ShowMainMenu;
-		FBController.instance.OnGetName += SetDisplayName;
-		FBController.instance.CallFBLogin();
-	}
+    public void ButtonPlayOnClick()
+    {
+        if (_isEditor)
+            ButtonGuessOnClick();
+        else
+            ButtonGoogleOnClick();
+        //ButtonGuessOnClick();
+    }
+
+    public void ButtonGoogleOnClick()
+    {
+        GPSController.Instance.OnGetName = SetDisplayName;
+        GPSController.Instance.OnLoginSuccessful = ShowMainMenu;
+        GPSController.Instance.OnLoginSuccess = (bool success) => {
+            GameData._isLoggedIn = success;
+            PlayerPrefs.SetInt("GoogleLogin", 1);
+            };
+        GPSController.Instance.SignIn();
+    }
 
 	public void ButtonGuessOnClick()
 	{
@@ -169,17 +182,6 @@ public class MenuSceneController : MonoBehaviour {
 	public void OnBtn_YesWeb(){
 		GameData.soundSourceAnotherGO (GameData.SFX_SOUNDSOURCE,sfxMenu,sfxButton);
 		Application.OpenURL ("http://www.damniloveindonesia.com/");
-	}
-
-	public void OnBtn_FBLogin(string onMenu){
-		FBController.instance.CallFBLogin ();
-		if(onMenu == GameData.BTN_ONFBPOPUP){
-			if(FB.IsLoggedIn){
-				PlayerPrefs.SetString (GameData.Key_SceneToGo, GameData.Scene_TambahSoal);
-				transition.gameObject.SetActive (true);
-			}
-		}
-		GameData.soundSourceAnotherGO (GameData.SFX_SOUNDSOURCE,sfxMenu,sfxButton);
 	}
 
 	public void OnBtn_Shop(){
@@ -254,17 +256,21 @@ public class MenuSceneController : MonoBehaviour {
 		//LINEController.lineControllerInstance.showLoginScreen(GameData.loginTypeValue);
 		
 		if(GameData._isLoggedIn){
-			FBController.instance.CallFBLogout();
-		}else{
-			bgmMenu.Stop();
-			sfxMenu.Stop();
-			loginScreen.SetActive(true);
-			MobilPuno.SetActive(false);
-			asap.SetActive(false);
-			TapToPlay.SetActive(false);
+
+            GPSController.Instance.OnSignOut = () => {
+                GameData._isLoggedIn = false;
+                PlayerPrefs.SetInt("GoogleLogin", 0);
+            };
+            GPSController.Instance.SignOut();
+			//FBController.instance.CallFBLogout();
 		}
-		
-	}
+        bgmMenu.Stop();
+        sfxMenu.Stop();
+        loginScreen.SetActive(true);
+        MobilPuno.SetActive(false);
+        asap.SetActive(false);
+        TapToPlay.SetActive(false);
+    }
 
 	public void OnBtn_Close (string sceneState)
 	{
@@ -362,16 +368,16 @@ public class MenuSceneController : MonoBehaviour {
 	#region PUBLIC functions
 	public void SetDisplayName (){
 		string name = string.Empty;
-		if(GameData._isLoggedIn) name = GameData.loginUserNameValue;
-		else name = "Guest";
-        txt_UserName.text = "";
+		if(GameData._isLoggedIn) name = "Hello, \n" +  GameData.loginUserNameValue;
+		else name = "";
+        txt_UserName.text = name;
 		// txt_UserName.text ="Hello, \n" + name;
 		// txt_UserName.text = "Hello, \n" + name;
 	}
 
 	public void SetDisplayName(string name){
 		txt_UserName.text = "Hello, \n" + name;
-		FBController.instance.OnGetName -= SetDisplayName;
+        GameData.loginUserNameValue = name;
 	}
 
 	#endregion
@@ -426,12 +432,6 @@ public class MenuSceneController : MonoBehaviour {
 			GameData.soundSourceAnotherGO (GameData.BGM_SOUNDSOURCE,bgmMenu,musicWorldStage);
 		}else if(!GameData._onMenuScreen){
 			GameData.stopSoundSourceAnotherGO (GameData.BGM_SOUNDSOURCE,bgmMenu);
-		}
-	}
-
-	void checkFBIsLoggedIn(){
-		if(FB.IsLoggedIn){
-			GameData.disableBtnFBLogin ();
 		}
 	}
 

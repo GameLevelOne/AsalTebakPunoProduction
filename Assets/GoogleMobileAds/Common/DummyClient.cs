@@ -21,7 +21,7 @@ using UnityEngine;
 namespace GoogleMobileAds.Common
 {
     public class DummyClient : IBannerClient, IInterstitialClient, IRewardBasedVideoAdClient,
-            IAdLoaderClient, INativeExpressAdClient, IMobileAdsClient
+            IAdLoaderClient, IMobileAdsClient
     {
         public DummyClient()
         {
@@ -45,8 +45,11 @@ namespace GoogleMobileAds.Common
 
         public event EventHandler<EventArgs> OnAdLeavingApplication;
 
-        public event EventHandler<CustomNativeEventArgs> OnCustomNativeTemplateAdLoaded;
+        public event EventHandler<EventArgs> OnAdCompleted;
 
+        public event EventHandler<AdValueEventArgs> OnPaidEvent;
+
+        public event EventHandler<CustomNativeEventArgs> OnCustomNativeTemplateAdLoaded;
 #pragma warning restore 67
 
         public string UserId
@@ -68,6 +71,12 @@ namespace GoogleMobileAds.Common
             Debug.Log("Dummy " + MethodBase.GetCurrentMethod().Name);
         }
 
+        public void Initialize(Action<InitializationStatus> initCompleteAction)
+        {
+            Debug.Log("Dummy " + MethodBase.GetCurrentMethod().Name);
+            initCompleteAction(null);
+        }
+
         public void SetApplicationMuted(bool muted)
         {
             Debug.Log("Dummy " + MethodBase.GetCurrentMethod().Name);
@@ -81,6 +90,18 @@ namespace GoogleMobileAds.Common
         public void SetiOSAppPauseOnBackground(bool pause)
         {
             Debug.Log("Dummy " + MethodBase.GetCurrentMethod().Name);
+        }
+
+        public float GetDeviceScale()
+        {
+            Debug.Log("Dummy " + MethodBase.GetCurrentMethod().Name);
+            return 0;
+        }
+
+        public int GetDeviceSafeWidth()
+        {
+            Debug.Log("Dummy " + MethodBase.GetCurrentMethod().Name);
+            return 0;
         }
 
         public void CreateBannerView(string adUnitId, AdSize adSize, AdPosition position)
@@ -191,32 +212,7 @@ namespace GoogleMobileAds.Common
             Debug.Log("Dummy " + MethodBase.GetCurrentMethod().Name);
         }
 
-        public void CreateNativeExpressAdView(string adUnitId, AdSize adSize, AdPosition position)
-        {
-            Debug.Log("Dummy " + MethodBase.GetCurrentMethod().Name);
-        }
-
-        public void CreateNativeExpressAdView(string adUnitId, AdSize adSize, int positionX, int positionY)
-        {
-            Debug.Log("Dummy " + MethodBase.GetCurrentMethod().Name);
-        }
-
         public void SetAdSize(AdSize adSize)
-        {
-            Debug.Log("Dummy " + MethodBase.GetCurrentMethod().Name);
-        }
-
-        public void ShowNativeExpressAdView()
-        {
-            Debug.Log("Dummy " + MethodBase.GetCurrentMethod().Name);
-        }
-
-        public void HideNativeExpressAdView()
-        {
-            Debug.Log("Dummy " + MethodBase.GetCurrentMethod().Name);
-        }
-
-        public void DestroyNativeExpressAdView()
         {
             Debug.Log("Dummy " + MethodBase.GetCurrentMethod().Name);
         }

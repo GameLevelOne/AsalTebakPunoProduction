@@ -32,7 +32,26 @@ public class StartSceneController : MonoBehaviour {
 		Social.localUser.Authenticate((bool success) => {
 			if(success){
 				print("google play login success");
-				SceneManager.LoadScene(GameData.Scene_Menu);
+                if (PlayerPrefs.GetInt("GoogleLogin", 0) == 1 && !GameData._isLoggedIn)
+                {
+                    GPSController.Instance.OnSilentSignInSuccess = (bool success1, string name) =>
+                    {
+                        GameData._isLoggedIn = success1;
+                        GameData.loginUserNameValue = name;
+                        SceneManager.LoadScene(GameData.Scene_Menu);
+                    };
+                    GPSController.Instance.OnSilentSignInFailed = () =>
+                    {
+                        PlayerPrefs.SetInt("GoogleLogin", 0);
+                        GameData._isLoggedIn = false;
+                        SceneManager.LoadScene(GameData.Scene_Menu);
+                    };
+                    GPSController.Instance.SilentSignIn();
+                }
+                else
+                {
+                    SceneManager.LoadScene(GameData.Scene_Menu);
+                }
 			}else{
 				print("google play login failed");
 				#if UNITY_EDITOR

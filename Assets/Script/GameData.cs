@@ -9,7 +9,8 @@ using System.Globalization;
 public enum eLoginType{
 	LINE = 0,
 	FACEBOOK,
-	GUEST
+	GUEST,
+    Google
 }
 
 public static class GameData{

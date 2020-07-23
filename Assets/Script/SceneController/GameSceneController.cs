@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
-using Facebook.Unity;
 using System.Collections;
 using System.Net;
 using System.IO;

@@ -247,7 +247,7 @@ public class ResultPanelController : MonoBehaviour {
 	public void FBShareStar(){
 		int world = PlayerPrefs.GetInt (GameData.Key_World);
 		int stage = PlayerPrefs.GetInt (GameData.Key_Stage);
-		FBController.instance.ShareScore (GameData._tempStar, GameData._worldName, stage);
+		
 	}
 
 	public void getRewardShareScore(){
