@@ -1,32 +1,63 @@
 fileFormatVersion: 2
 guid: a8eb9a18e0020484586c418f9bac8c30
-timeCreated: 1478853180
-licenseType: Pro
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: bali1-1_rev_big
-    21300002: bali1-2_rev_big
-    21300004: bali1-3_rev_big
-    21300006: jakarta1-1_rev_big
-    21300008: jakarta1-2_rev_big
-    21300010: jakarta1-3_rev_big
-    21300012: jogja2-1
-    21300014: jogja2-2
-    21300016: jogja2-3
-    21300018: padang1-1_rev_big
-    21300020: padang1-2_rev_big
-    21300022: padang1-3_rev_big
-    21300024: toraja1-1
-    21300026: toraja1-2
-    21300028: toraja1-3
-  serializedVersion: 2
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: bali1-1_rev_big
+  - first:
+      213: 21300002
+    second: bali1-2_rev_big
+  - first:
+      213: 21300004
+    second: bali1-3_rev_big
+  - first:
+      213: 21300006
+    second: jakarta1-1_rev_big
+  - first:
+      213: 21300008
+    second: jakarta1-2_rev_big
+  - first:
+      213: 21300010
+    second: jakarta1-3_rev_big
+  - first:
+      213: 21300012
+    second: jogja2-1
+  - first:
+      213: 21300014
+    second: jogja2-2
+  - first:
+      213: 21300016
+    second: jogja2-3
+  - first:
+      213: 21300018
+    second: padang1-1_rev_big
+  - first:
+      213: 21300020
+    second: padang1-2_rev_big
+  - first:
+      213: 21300022
+    second: padang1-3_rev_big
+  - first:
+      213: 21300024
+    second: toraja1-1
+  - first:
+      213: 21300026
+    second: toraja1-2
+  - first:
+      213: 21300028
+    second: toraja1-3
+  externalObjects: {}
+  serializedVersion: 10
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
+    sRGBTexture: 1
     linearTexture: 0
-    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
@@ -35,37 +66,60 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
   cubemapConvolution: 0
-  cubemapConvolutionSteps: 7
-  cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -1
   maxTextureSize: 2048
   textureSettings:
+    serializedVersion: 2
     filterMode: -1
     aniso: -1
-    mipBias: -1
-    wrapMode: 1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
-  rGBM: 0
   compressionQuality: 50
-  allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
-  buildTargetSettings: []
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: bali1-1_rev_big
+    - serializedVersion: 2
+      name: bali1-1_rev_big
       rect:
         serializedVersion: 2
         x: 1
@@ -75,15 +129,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -43, y: 63}
-        - {x: -63, y: 54}
-        - {x: -63, y: -63}
-        - {x: 37, y: -63}
-        - {x: 63, y: -55}
-        - {x: 63, y: 29}
-        - {x: 42, y: 63}
-    - name: bali1-2_rev_big
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bali1-2_rev_big
       rect:
         serializedVersion: 2
         x: 1
@@ -93,15 +150,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -43, y: 63}
-        - {x: -63, y: 54}
-        - {x: -63, y: -63}
-        - {x: 37, y: -63}
-        - {x: 63, y: -55}
-        - {x: 63, y: 29}
-        - {x: 42, y: 63}
-    - name: bali1-3_rev_big
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bali1-3_rev_big
       rect:
         serializedVersion: 2
         x: 1
@@ -111,15 +171,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -43, y: 63}
-        - {x: -63, y: 54}
-        - {x: -63, y: -63}
-        - {x: 37, y: -63}
-        - {x: 63, y: -55}
-        - {x: 63, y: 29}
-        - {x: 42, y: 63}
-    - name: jakarta1-1_rev_big
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jakarta1-1_rev_big
       rect:
         serializedVersion: 2
         x: 1
@@ -129,15 +192,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -43, y: 63}
-        - {x: -63, y: 54}
-        - {x: -63, y: -63}
-        - {x: 37, y: -63}
-        - {x: 63, y: -55}
-        - {x: 63, y: 29}
-        - {x: 42, y: 63}
-    - name: jakarta1-2_rev_big
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jakarta1-2_rev_big
       rect:
         serializedVersion: 2
         x: 129
@@ -147,15 +213,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -43, y: 63}
-        - {x: -63, y: 54}
-        - {x: -63, y: -63}
-        - {x: 37, y: -63}
-        - {x: 63, y: -55}
-        - {x: 63, y: 29}
-        - {x: 42, y: 63}
-    - name: jakarta1-3_rev_big
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jakarta1-3_rev_big
       rect:
         serializedVersion: 2
         x: 257
@@ -165,15 +234,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -43, y: 63}
-        - {x: -63, y: 54}
-        - {x: -63, y: -63}
-        - {x: 37, y: -63}
-        - {x: 63, y: -55}
-        - {x: 63, y: 29}
-        - {x: 42, y: 63}
-    - name: jogja2-1
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2305410000000000800000000000000
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jogja2-1
       rect:
         serializedVersion: 2
         x: 385
@@ -183,14 +255,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -41, y: 63}
-        - {x: -63, y: 28}
-        - {x: -63, y: -63}
-        - {x: 63, y: -63}
-        - {x: 63, y: 51}
-        - {x: 36, y: 63}
-    - name: jogja2-2
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2305410000000000800000000000000
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jogja2-2
       rect:
         serializedVersion: 2
         x: 129
@@ -200,15 +276,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -63, y: 63}
-        - {x: -63, y: -59}
-        - {x: -62, y: -63}
-        - {x: 42, y: -63}
-        - {x: 63, y: -50}
-        - {x: 63, y: 51}
-        - {x: 47, y: 63}
-    - name: jogja2-3
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2305410000000000800000000000000
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jogja2-3
       rect:
         serializedVersion: 2
         x: 129
@@ -218,15 +297,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -63, y: 63}
-        - {x: -63, y: -59}
-        - {x: -62, y: -63}
-        - {x: 42, y: -63}
-        - {x: 63, y: -50}
-        - {x: 63, y: 51}
-        - {x: 47, y: 63}
-    - name: padang1-1_rev_big
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03305410000000000800000000000000
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padang1-1_rev_big
       rect:
         serializedVersion: 2
         x: 129
@@ -236,15 +318,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -43, y: 63}
-        - {x: -63, y: 54}
-        - {x: -63, y: -63}
-        - {x: 37, y: -63}
-        - {x: 63, y: -55}
-        - {x: 63, y: 29}
-        - {x: 42, y: 63}
-    - name: padang1-2_rev_big
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23305410000000000800000000000000
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padang1-2_rev_big
       rect:
         serializedVersion: 2
         x: 257
@@ -254,15 +339,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -43, y: 63}
-        - {x: -63, y: 54}
-        - {x: -63, y: -63}
-        - {x: 37, y: -63}
-        - {x: 63, y: -55}
-        - {x: 63, y: 29}
-        - {x: 42, y: 63}
-    - name: padang1-3_rev_big
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43305410000000000800000000000000
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padang1-3_rev_big
       rect:
         serializedVersion: 2
         x: 385
@@ -272,15 +360,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -43, y: 63}
-        - {x: -63, y: 54}
-        - {x: -63, y: -63}
-        - {x: 37, y: -63}
-        - {x: 63, y: -55}
-        - {x: 63, y: 29}
-        - {x: 42, y: 63}
-    - name: toraja1-1
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63305410000000000800000000000000
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toraja1-1
       rect:
         serializedVersion: 2
         x: 257
@@ -290,18 +381,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 50, y: 63}
-        - {x: -45, y: 63}
-        - {x: -63, y: 58}
-        - {x: -63, y: -34}
-        - {x: -34, y: -63}
-        - {x: 35, y: -63}
-        - {x: 39, y: -62}
-        - {x: 63, y: -40}
-        - {x: 63, y: 33}
-        - {x: 60, y: 47}
-    - name: toraja1-2
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83305410000000000800000000000000
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toraja1-2
       rect:
         serializedVersion: 2
         x: 257
@@ -311,16 +402,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -62, y: 63}
-        - {x: -63, y: 62}
-        - {x: -63, y: -48}
-        - {x: -32, y: -63}
-        - {x: 47, y: -63}
-        - {x: 63, y: -41}
-        - {x: 63, y: 25}
-        - {x: 40, y: 63}
-    - name: toraja1-3
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3305410000000000800000000000000
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toraja1-3
       rect:
         serializedVersion: 2
         x: 385
@@ -330,19 +423,29 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 50, y: 63}
-        - {x: -45, y: 63}
-        - {x: -63, y: 58}
-        - {x: -63, y: -34}
-        - {x: -34, y: -63}
-        - {x: 35, y: -63}
-        - {x: 39, y: -62}
-        - {x: 63, y: -40}
-        - {x: 63, y: 33}
-        - {x: 60, y: 47}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3305410000000000800000000000000
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

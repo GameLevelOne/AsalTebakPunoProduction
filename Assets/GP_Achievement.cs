@@ -24,15 +24,15 @@
 
 public static class GP_Achievement
 {
+        public const string achievement_clear_world_3 = "CgkIkM_-p6oUEAIQAw"; // <GPGSID>
+        public const string achievement_clear_world_2 = "CgkIkM_-p6oUEAIQAg"; // <GPGSID>
+        public const string achievement_clear_world_1 = "CgkIkM_-p6oUEAIQAQ"; // <GPGSID>
+        public const string achievement_answer_question_in_30_sec = "CgkIkM_-p6oUEAIQBA"; // <GPGSID>
+        public const string achievement_collect_30_star = "CgkIkM_-p6oUEAIQBw"; // <GPGSID>
+        public const string achievement_answer_question_in_10_sec = "CgkIkM_-p6oUEAIQBQ"; // <GPGSID>
+        public const string achievement_first_use_power_up = "CgkIkM_-p6oUEAIQBg"; // <GPGSID>
         public const string achievement_new_player = "CgkIkM_-p6oUEAIQAA"; // <GPGSID>
         public const string achievement_collect_60_star = "CgkIkM_-p6oUEAIQCA"; // <GPGSID>
-        public const string achievement_clear_world_1 = "CgkIkM_-p6oUEAIQAQ"; // <GPGSID>
-        public const string achievement_clear_world_2 = "CgkIkM_-p6oUEAIQAg"; // <GPGSID>
-        public const string achievement_answer_question_in_30_sec = "CgkIkM_-p6oUEAIQBA"; // <GPGSID>
-        public const string achievement_answer_question_in_10_sec = "CgkIkM_-p6oUEAIQBQ"; // <GPGSID>
-        public const string achievement_clear_world_3 = "CgkIkM_-p6oUEAIQAw"; // <GPGSID>
-        public const string achievement_collect_30_star = "CgkIkM_-p6oUEAIQBw"; // <GPGSID>
-        public const string achievement_first_use_power_up = "CgkIkM_-p6oUEAIQBg"; // <GPGSID>
 
 }
 

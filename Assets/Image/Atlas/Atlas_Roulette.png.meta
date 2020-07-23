@@ -1,25 +1,42 @@
 fileFormatVersion: 2
 guid: f587393c84572564aa8994d79108e205
-timeCreated: 1475836939
-licenseType: Pro
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: dummyRoulette
-    21300002: 2_1
-    21300004: dummyRoulette1
-    21300006: pointer
-    21300008: sun
-    21300010: panah kebawah
-    21300012: SpinWatchAd
-    21300014: dummyRouletteBtn
-  serializedVersion: 2
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: dummyRoulette
+  - first:
+      213: 21300002
+    second: 2_1
+  - first:
+      213: 21300004
+    second: dummyRoulette1
+  - first:
+      213: 21300006
+    second: pointer
+  - first:
+      213: 21300008
+    second: sun
+  - first:
+      213: 21300010
+    second: panah kebawah
+  - first:
+      213: 21300012
+    second: SpinWatchAd
+  - first:
+      213: 21300014
+    second: dummyRouletteBtn
+  externalObjects: {}
+  serializedVersion: 10
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
+    sRGBTexture: 1
     linearTexture: 0
-    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
@@ -28,37 +45,60 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
   cubemapConvolution: 0
-  cubemapConvolutionSteps: 7
-  cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -1
   maxTextureSize: 512
   textureSettings:
+    serializedVersion: 2
     filterMode: -1
     aniso: -1
-    mipBias: -1
-    wrapMode: 1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
-  rGBM: 0
   compressionQuality: 50
-  allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
-  buildTargetSettings: []
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: dummyRoulette
+    - serializedVersion: 2
+      name: dummyRoulette
       rect:
         serializedVersion: 2
         x: 8
@@ -68,26 +108,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 121.5, y: 35}
-        - {x: 108.5, y: 73}
-        - {x: 72.5, y: 108}
-        - {x: 35.5, y: 122}
-        - {x: -32.5, y: 122}
-        - {x: -46.5, y: 117}
-        - {x: -73.5, y: 102}
-        - {x: -102.5, y: 75}
-        - {x: -121.5, y: 40}
-        - {x: -121.5, y: -40}
-        - {x: -100.5, y: -78}
-        - {x: -72.5, y: -102}
-        - {x: -47.5, y: -116}
-        - {x: -30.5, y: -122}
-        - {x: 35.5, y: -122}
-        - {x: 64.5, y: -109}
-        - {x: 97.5, y: -83}
-        - {x: 121.5, y: -38}
-    - name: 2_1
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2_1
       rect:
         serializedVersion: 2
         x: 275
@@ -97,24 +129,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 112, y: -23}
-        - {x: 112, y: 31}
-        - {x: 90, y: 81}
-        - {x: 47, y: 113}
-        - {x: -36, y: 113}
-        - {x: -61, y: 101}
-        - {x: -102, y: 59}
-        - {x: -112, y: 24}
-        - {x: -112, y: -23}
-        - {x: -97, y: -68}
-        - {x: -46, y: -106}
-        - {x: -6, y: -113}
-        - {x: 26, y: -113}
-        - {x: 64, y: -98}
-        - {x: 70, y: -95}
-        - {x: 107, y: -46}
-    - name: dummyRoulette1
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummyRoulette1
       rect:
         serializedVersion: 2
         x: 8
@@ -124,26 +150,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 121.5, y: 34.5}
-        - {x: 107.5, y: 70.5}
-        - {x: 66.5, y: 107.5}
-        - {x: 39.5, y: 121.5}
-        - {x: -35.5, y: 121.5}
-        - {x: -48.5, y: 118.5}
-        - {x: -97.5, y: 84.5}
-        - {x: -118.5, y: 42.5}
-        - {x: -121.5, y: 27.5}
-        - {x: -121.5, y: -26.5}
-        - {x: -114.5, y: -50.5}
-        - {x: -100.5, y: -77.5}
-        - {x: -64.5, y: -110.5}
-        - {x: -30.5, y: -121.5}
-        - {x: 34.5, y: -121.5}
-        - {x: 73.5, y: -104.5}
-        - {x: 107.5, y: -66.5}
-        - {x: 121.5, y: -37.5}
-    - name: pointer
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pointer
       rect:
         serializedVersion: 2
         x: 264
@@ -153,16 +171,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -6.5, y: 55}
-        - {x: -32.5, y: -2}
-        - {x: -32.5, y: -49}
-        - {x: -22.5, y: -55}
-        - {x: 28.5, y: -55}
-        - {x: 32.5, y: -45}
-        - {x: 32.5, y: 35}
-        - {x: 25.5, y: 55}
-    - name: sun
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun
       rect:
         serializedVersion: 2
         x: 347
@@ -172,16 +192,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -23.5, y: 36.5}
-        - {x: -36.5, y: 28.5}
-        - {x: -36.5, y: -23.5}
-        - {x: -29.5, y: -36.5}
-        - {x: 19.5, y: -36.5}
-        - {x: 36.5, y: -25.5}
-        - {x: 36.5, y: 35.5}
-        - {x: 35.5, y: 36.5}
-    - name: panah kebawah
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panah kebawah
       rect:
         serializedVersion: 2
         x: 438
@@ -191,15 +213,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -30.5, y: 26.5}
-        - {x: -30.5, y: -12.5}
-        - {x: -21.5, y: -26.5}
-        - {x: 20.5, y: -26.5}
-        - {x: 30.5, y: -15.5}
-        - {x: 30.5, y: 21.5}
-        - {x: 25.5, y: 26.5}
-    - name: SpinWatchAd
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2305410000000000800000000000000
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpinWatchAd
       rect:
         serializedVersion: 2
         x: 275
@@ -209,12 +234,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -54.5, y: 41.5}
-        - {x: -54.5, y: -41.5}
-        - {x: 54.5, y: -41.5}
-        - {x: 54.5, y: 41.5}
-    - name: dummyRouletteBtn
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2305410000000000800000000000000
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dummyRouletteBtn
       rect:
         serializedVersion: 2
         x: 398
@@ -224,15 +255,29 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -11.5, y: 56.5}
-        - {x: -54.5, y: 32.5}
-        - {x: -54.5, y: -56.5}
-        - {x: 54.5, y: -56.5}
-        - {x: 54.5, y: 29.5}
-        - {x: 4.5, y: 56.5}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2305410000000000800000000000000
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

@@ -18,24 +18,24 @@ tpsheetFileNames:
 - Assets/Image/TPSheets/sisa button - roulette - star.tpsheet
 - Assets/Image/TPSheets/World select icons.tpsheet
 textureFileNames:
-- Assets/codeandweb.com/Example/SpriteSheet/sprites.png
-- Assets/Image/Atlas/Xmas_Jkt.png
-- Assets/Image/TPSheets/characters.png
-- Assets/Image/TPSheets/Komik Bali 1.png
-- Assets/Image/TPSheets/Komik Bali 2.png
-- Assets/Image/TPSheets/Komik Jkt 1-2.png
-- Assets/Image/TPSheets/Komik Jkt 2 - 3-4.png
-- Assets/Image/TPSheets/Komik Jkt 2 -1-2.png
-- Assets/Image/TPSheets/Komik Jkt 3 - 1.png
-- Assets/Image/TPSheets/Komik Jkt 3 - 2.png
-- Assets/Image/TPSheets/Komik Jkt 3 - asap.png
-- Assets/Image/TPSheets/Komik Padang 1.png
-- Assets/Image/TPSheets/Komik Padang 2.png
-- Assets/Image/TPSheets/Mobil - shadow.png
-- Assets/Image/TPSheets/sisa button - roulette - star.png
-- Assets/Image/TPSheets/World select icons.png
+- Assets\codeandweb.com\Example\SpriteSheet/sprites.png
+- Assets\Image\Atlas/Xmas_Jkt.png
+- Assets\Image\TPSheets/characters.png
+- Assets\Image\TPSheets/Komik Bali 1.png
+- Assets\Image\TPSheets/Komik Bali 2.png
+- Assets\Image\TPSheets/Komik Jkt 1-2.png
+- Assets\Image\TPSheets/Komik Jkt 2 - 3-4.png
+- Assets\Image\TPSheets/Komik Jkt 2 -1-2.png
+- Assets\Image\TPSheets/Komik Jkt 3 - 1.png
+- Assets\Image\TPSheets/Komik Jkt 3 - 2.png
+- Assets\Image\TPSheets/Komik Jkt 3 - asap.png
+- Assets\Image\TPSheets/Komik Padang 1.png
+- Assets\Image\TPSheets/Komik Padang 2.png
+- Assets\Image\TPSheets/Mobil - shadow.png
+- Assets\Image\TPSheets/sisa button - roulette - star.png
+- Assets\Image\TPSheets/World select icons.png
 normalmapFileNames:
-- Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- Assets\codeandweb.com\Example\SpriteSheet/sprites_n.png
 - 
 - 
 - 

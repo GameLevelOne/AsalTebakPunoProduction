@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class AnimationController : MonoBehaviour {
 	#region variableDeclaration
-	private GameObject levelSelect,TapToPlay,MobilPuno,stageSelect,worldSelect,helpBox,settingBtn,buatSoalBtn,transitionOpen,glowScroll,efekCahaya,asap,bubbleResult
+	private GameObject levelSelect,TapToPlay,MobilPuno,stageSelect,worldSelect,helpBox,settingBtn,transitionOpen,glowScroll,efekCahaya,asap,bubbleResult
 	,star1,star2,star3,mainMenuBox,popUpShare,credit,popUpLogin,popUpBuatSoal,popUpUnlockHint,mainHintMenu,hintMenu,shopMenu,rouletteMenu,prizeMenu,rewardShare,selamatBermain,pointer,
 	buyNotification,soalNotification,nextWorldNotification,exitNotification,rouletteNotification,
 	rouletteStar,webNotification,moreGames,selectMode,resetStarNotif,resetStarConfirm,selectModeNotif,lineErrorNotif;
@@ -50,7 +50,7 @@ public class AnimationController : MonoBehaviour {
 			stageSelect = anim_obj.GetStageSelect ();
 			worldSelect = anim_obj.GetWorldSelect ();
 			settingBtn = anim_obj.GetSettingBtn ();
-			buatSoalBtn = anim_obj.GetBuatSoalBtn ();
+			//buatSoalBtn = anim_obj.GetBuatSoalBtn ();
 			asap = anim_obj.GetAsap ();
 			credit = anim_obj.GetCredit ();
 			popUpLogin = anim_obj.GetPopUpLogin ();
@@ -178,7 +178,7 @@ public class AnimationController : MonoBehaviour {
 			MobilPuno.gameObject.SetActive (true);
 		} else if (GameData._sceneState == GameData.WORLD_MENU && GameData._buttonTag == GameData.Tag_World) {
 			worldSelect.gameObject.SetActive (false);
-			buatSoalBtn.gameObject.SetActive (false);
+			//buatSoalBtn.gameObject.SetActive (false);
 			stageSelect.gameObject.SetActive (true);
 		} else if (GameData._sceneState == GameData.WORLD_MENU && GameData._buttonTag == GameData.Tag_LockedWorld) {
 			popUpUnlockHint.gameObject.SetActive (true);
@@ -187,7 +187,7 @@ public class AnimationController : MonoBehaviour {
 			popUpLogin.gameObject.SetActive (true);
 			worldSelect.gameObject.SetActive (false);
 		} else if (GameData._sceneState == GameData.STAGE_MENU && GameData._buttonTag == GameData.Tag_Close) {
-			buatSoalBtn.gameObject.SetActive (true);
+			//buatSoalBtn.gameObject.SetActive (true);
 			worldSelect.gameObject.SetActive (true);
 			stageSelect.gameObject.SetActive (false);
 		} else if (GameData._sceneState == GameData.STAGE_MENU && GameData._buttonTag == GameData.Tag_LockedStage) {
@@ -197,7 +197,7 @@ public class AnimationController : MonoBehaviour {
 			helpBox.gameObject.SetActive (true);
 		} else if (GameData._sceneState == GameData.HELP_MENU && GameData._buttonTag == GameData.Tag_Close) {
 			if (GameData._sceneState == GameData.WORLD_MENU) {
-				buatSoalBtn.gameObject.SetActive (true);
+				//buatSoalBtn.gameObject.SetActive (true);
 			}				
 
 			if (SceneManager.GetActiveScene().name == "GameScene" && GameData.GilaMode.iGilaMode == 0 && GameData.EnglishMode.iEnglishMode == 0) {

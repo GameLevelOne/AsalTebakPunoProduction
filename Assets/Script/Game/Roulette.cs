@@ -30,10 +30,10 @@ public class Roulette : MonoBehaviour {
 		isSpinning = false;
 	}
 
-	void Update(){
-		objectClickedCheck ();
-		swipeRoulette ();
-	}
+	//void Update(){
+	//	objectClickedCheck ();
+	//	swipeRoulette ();
+	//}
 
 	private void objectClickedCheck(){
 		if(Input.GetMouseButtonDown(0)){
@@ -45,6 +45,32 @@ public class Roulette : MonoBehaviour {
 			}
 		}
 	}
+
+    public void StartSwipe()
+    {
+        startPos = Input.mousePosition;
+        Debug.Log("Start");
+    }
+
+    public void EndSwipe()
+    {
+        Debug.Log("Last");
+        var lastPos = Input.mousePosition;
+        float swipeDistVertical = (new Vector3(0, lastPos.y, 0) - new Vector3(0, startPos.y, 0)).magnitude;
+
+        if (swipeDistVertical > minSwipeDistY)
+        {
+            float swipeValue = Mathf.Sign(lastPos.y - startPos.y);
+
+            if (swipeValue < 0)
+            {//down swipe
+                if (isSpinning == false)
+                {
+                    DoSpin();
+                }
+            }
+        }
+    }
 
 	private void swipeRoulette(){
 		if (objectName == Obj_Wheel && Input.touchCount > 0){

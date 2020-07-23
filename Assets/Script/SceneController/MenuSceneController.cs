@@ -154,7 +154,7 @@ public class MenuSceneController : MonoBehaviour {
 		TapToPlay.gameObject.SetActive (false);
 		MobilPuno.gameObject.SetActive (false);
 		asap.gameObject.SetActive (false);
-		buatSoalBtn.gameObject.SetActive (true);
+		//buatSoalBtn.gameObject.SetActive (false);
 		ShowWorldMenu ();
 		playMenuMusic ();
 
@@ -277,7 +277,7 @@ public class MenuSceneController : MonoBehaviour {
 		if (sceneState == GameData.WORLD_MENU) {
 			Debug.Log (sceneState);
 			GameData._onMenuScreen = false;
-			buatSoalBtn.gameObject.SetActive (false);
+			//buatSoalBtn.gameObject.SetActive (false);
 			Anim_World.SetTrigger (GameData.Close);
 			playMenuMusic ();
 		} else if (sceneState == GameData.STAGE_MENU) {
@@ -364,7 +364,8 @@ public class MenuSceneController : MonoBehaviour {
 		string name = string.Empty;
 		if(GameData._isLoggedIn) name = GameData.loginUserNameValue;
 		else name = "Guest";
-		txt_UserName.text ="Hello, \n" + name;
+        txt_UserName.text = "";
+		// txt_UserName.text ="Hello, \n" + name;
 		// txt_UserName.text = "Hello, \n" + name;
 	}
 
@@ -458,7 +459,7 @@ public class MenuSceneController : MonoBehaviour {
 
 	private void afterReadComic(){//langsung ke stage select
 		if(GameData._sceneState == GameData.Scene_Comic){
-			buatSoalBtn.gameObject.SetActive (false);
+			//buatSoalBtn.gameObject.SetActive (false);
 			MobilPuno.gameObject.SetActive(false);
 			LevelSelect.gameObject.SetActive (true);
 			WorldSelect.gameObject.SetActive (false);
