@@ -1345,8 +1345,8 @@ public static class GameData{
 	public static bool bhasBannerResponse = false;
 
 	public static class GilaMode{
-		const string KEY_STAR = "GilaMode/Star";
-		const string KEY_GILAMODEUNLOCKED = "GilaMode/UnlockValue";
+		public const string KEY_STAR = "GilaMode/Star";
+		public const string KEY_GILAMODEUNLOCKED = "GilaMode/UnlockValue";
 		//const string KEY_CLEAREDSTAGE = "GilaMode/ClearedStage";
 
 		/// <summary>
@@ -1389,11 +1389,16 @@ public static class GameData{
 //			string temp = KEY_CLEAREDSTAGE+"/W"+World+"L"+Level;
 //			return PlayerPrefs.GetInt(temp,0);
 //		}
+
+        public static string GetKeyStar(int World, int Level){
+			string temp = KEY_STAR+"/W"+World+"L"+Level;
+            return temp;
+		}
 	}
 
 	public static class EnglishMode{
-		const string KEY_STAR = "EnglishMode/Star";
-		const string KEY_ENGLISHMODEUNLOCKED = "EnglishMode/UnlockValue";
+		public const string KEY_STAR = "EnglishMode/Star";
+		public const string KEY_ENGLISHMODEUNLOCKED = "EnglishMode/UnlockValue";
 
 		/// <summary>
 		/// <para>Determines EnglishMode is on or off</para>
@@ -1425,5 +1430,21 @@ public static class GameData{
 			get{ return PlayerPrefs.GetInt(KEY_ENGLISHMODEUNLOCKED,0);}
 			set{ PlayerPrefs.SetInt(KEY_ENGLISHMODEUNLOCKED,value);}
 		}
-	}
+
+        public static string GetKeyStar(int World, int Level)
+        {
+            string temp = KEY_STAR + "/W" + World + "L" + Level;
+            return temp;
+        }
+    }
+
+    public static bool CheckKeyPlayerPrefs(string key)
+    {
+        return PlayerPrefs.HasKey(key);
+    }
+
+    public static int GetIntValuePlayerPrefs(string key)
+    {
+        return PlayerPrefs.GetInt(key);
+    }
 }
